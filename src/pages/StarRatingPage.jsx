@@ -1,5 +1,5 @@
 import PageNav from "../components/PageNav";
-import StarRating from "../components/appComponents/StarRating";
+import StarRating from "../components/starRatingComponents/StarRating";
 
 function StarRatingPage() {
   return (

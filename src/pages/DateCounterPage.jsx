@@ -1,4 +1,4 @@
-import DateCounter from "../components/appComponents/DateCounter";
+import DateCounter from "../components/counterComponents/DateCounter";
 import PageNav from "../components/PageNav";
 
 function DateCounterPage() {

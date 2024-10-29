@@ -1,10 +1,13 @@
 import PageNav from "../components/PageNav";
+import AtomicBlog from "../components/atomicComponents/AtomicBlog";
+
+import styles from "../components/atomicComponents/AtomicBlog.module.css";
 
 function AtomicBlogPage() {
   return (
     <div>
       <PageNav />
-      <h1>AtomicBlog</h1>
+      <AtomicBlog className={styles} />
     </div>
   );
 }
