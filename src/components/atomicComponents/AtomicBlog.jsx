@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 import { faker } from "@faker-js/faker";
-import AtomicButton from "./AtomicButton";
+
 // import styles from "../atomicComponents/AtomicBlog.module.css";
 
 function createRandomPost() {
@@ -16,7 +16,6 @@ function App() {
     Array.from({ length: 50 }, () => createRandomPost())
   );
   const [searchQuery, setSearchQuery] = useState("");
-  const [isFakeDark, setIsFakeDark] = useState(false);
 
   // Derived state. These are the posts that will actually be displayed
   const searchedPosts =

@@ -1,5 +1,5 @@
-import PageNav from "../components/PageNav";
 import AtomicBlog from "../components/atomicComponents/AtomicBlog";
+import PageNav from "../components/PageNav";
 
 import styles from "../components/atomicComponents/AtomicBlog.module.css";
 
