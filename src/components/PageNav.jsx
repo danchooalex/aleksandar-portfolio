@@ -1,0 +1,28 @@
+import { NavLink } from "react-router-dom";
+import styles from "./PageNav.module.css";
+
+function PageNav() {
+  return (
+    <nav className={styles.nav}>
+      <ul>
+        <li>
+          <NavLink to="/">H O M E</NavLink>
+        </li>
+        <li>
+          <NavLink to="/rating">R A T I N G</NavLink>
+        </li>
+        <li>
+          <NavLink to="/counter">C O U N T E R</NavLink>
+        </li>
+        <li>
+          <NavLink to="/atomic">A T O M I C</NavLink>
+        </li>
+        <li>
+          <NavLink to="/world">W O R L D</NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
+}
+
+export default PageNav;

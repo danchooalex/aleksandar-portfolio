@@ -1,0 +1,17 @@
+.counter {
+  @apply flex flex-col items-center justify-center text-center gap-4 text-[2rem] font-bold m-20;
+}
+
+.counter * {
+  @apply text-inherit p-4
+    /* font-size: inherit;
+    padding: 0.8rem; */;
+}
+
+.center {
+  @apply flex flex-row items-center justify-center gap-6;
+}
+
+.btn {
+  @apply bg-slate-400 rounded-md w-auto h-auto;
+}

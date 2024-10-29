@@ -1,5 +1,25 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import HomePage from "./pages/HomePage";
+import StarRatingPage from "./pages/StarRatingPage";
+import DateCounterPage from "./pages/DateCounterPage";
+import AtomicBlogPage from "./pages/AtomicBlogPage";
+import WorldWisePage from "./pages/WorldWisePage";
+import PageNotFoundPage from "./pages/PageNotFoundPage";
+
 function App() {
-  return <div className="bg-slate-600 ">P O R T F O L I O</div>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="rating" element={<StarRatingPage />} />
+        <Route path="counter" element={<DateCounterPage />} />
+        <Route path="atomic" element={<AtomicBlogPage />} />
+        <Route path="world" element={<WorldWisePage />} />
+        <Route path="*" element={<PageNotFoundPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;

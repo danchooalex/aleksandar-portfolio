@@ -1,0 +1,11 @@
+.nav {
+  @apply bg-red-400;
+}
+
+.nav ul {
+  @apply flex justify-between;
+}
+
+.nav :global(.active) {
+  background-color: green;
+}
