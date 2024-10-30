@@ -1,10 +1,9 @@
-import PageNavPortfolio from "../../components/pageNavPortfolio/PageNavPortfolio";
+import Homepage from "../worldWisePages/Homepage";
 
 function WorldWisePagePortfolio() {
   return (
     <div>
-      <PageNavPortfolio />
-      <h1>WorldWisePortfolio</h1>
+      <Homepage />
     </div>
   );
 }
