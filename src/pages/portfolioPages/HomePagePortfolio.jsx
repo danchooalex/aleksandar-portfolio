@@ -1,7 +1,7 @@
 import PageNavPortfolio from "../../components/pageNavPortfolio/PageNavPortfolio";
 import AppLayoutPortfolio from "./AppLayoutPortfolio";
 
-function HomePage() {
+function HomePagePortfolio() {
   return (
     <div>
       <PageNavPortfolio />
@@ -10,4 +10,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default HomePagePortfolio;
