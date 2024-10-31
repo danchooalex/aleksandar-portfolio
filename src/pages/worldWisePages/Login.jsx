@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../contexts/FakeAuthContext";
+
 import Button from "../../components/worldWiseComponents/Button";
 import PageNav from "../../components/worldWiseComponents/PageNav";
-import { useAuth } from "../../contexts/FakeAuthContext";
 import styles from "../worldWisePages/Login.module.css";
 
 export default function Login() {

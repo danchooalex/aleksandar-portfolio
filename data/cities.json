@@ -1,39 +1,39 @@
 {
   "cities": [
     {
-      "id": "51e4",
-      "cityName": "Belgrade",
+      "id": "1144",
+      "cityName": "Zabbar",
+      "country": "Malta",
+      "emoji": "🇲🇹",
+      "date": "2024-10-31T11:04:47.385Z",
+      "notes": "ASfsdgfbfgv",
+      "position": {
+        "lat": "35.871246850027966",
+        "lng": "14.523925781250002"
+      }
+    },
+    {
+      "id": "ac1d",
+      "cityName": "Bucharest",
+      "country": "Romania",
+      "emoji": "🇷🇴",
+      "date": "2024-10-31T11:04:56.713Z",
+      "notes": "sdzb xfcv azv cx",
+      "position": {
+        "lat": "44.43377984606825",
+        "lng": "26.125488281250004"
+      }
+    },
+    {
+      "id": "8960",
+      "cityName": "Palilula",
       "country": "Serbia",
       "emoji": "🇷🇸",
-      "date": "2024-10-10T10:45:41.000Z",
-      "notes": "ASD",
-      "position": {
-        "lat": "44.81691551782855",
-        "lng": "20.467529296875004"
-      }
-    },
-    {
-      "id": "ebda",
-      "cityName": "Montenegro",
-      "country": "Montenegro",
-      "emoji": "🇲🇪",
-      "date": "2024-10-30T11:46:00.061Z",
+      "date": "2024-10-31T11:05:30.364Z",
       "notes": "",
       "position": {
-        "lat": "42.27730877423709",
-        "lng": "18.8525390625"
-      }
-    },
-    {
-      "id": "b660",
-      "cityName": "Matelica",
-      "country": "Italy",
-      "emoji": "🇮🇹",
-      "date": "2024-10-30T11:46:13.115Z",
-      "notes": "",
-      "position": {
-        "lat": "43.29320031385285",
-        "lng": "13.073730468750002"
+        "lat": "44.824708282300236",
+        "lng": "20.478515625000004"
       }
     }
   ]

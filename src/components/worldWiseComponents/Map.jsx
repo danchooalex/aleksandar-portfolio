@@ -7,13 +7,13 @@ import {
   useMap,
   useMapEvents,
 } from "react-leaflet";
-
-import styles from "../../components/worldWiseComponents/Map.module.css";
 import { useEffect, useState } from "react";
 import { useCities } from "../../contexts/CitiesContext";
 import { useGeolocation } from "../../hooks/useGeolocation";
 import { useUrlPosition } from "../../hooks/useUrlPosition";
+
 import Button from "../worldWiseComponents/Button";
+import styles from "../../components/worldWiseComponents/Map.module.css";
 
 function Map() {
   const { cities } = useCities();

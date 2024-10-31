@@ -15,7 +15,7 @@ function PageNavPortfolio() {
           <NavLink to="/counter">C O U N T E R</NavLink>
         </li>
         <li>
-          <NavLink to="/atomic">A T O M I C</NavLink>
+          <NavLink to="/react">React Quiz</NavLink>
         </li>
         <li>
           <NavLink to="/world">W O R L D</NavLink>

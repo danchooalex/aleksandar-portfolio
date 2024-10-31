@@ -1,8 +1,10 @@
+import { useCities } from "../../contexts/CitiesContext";
+
 import Spinner from "../worldWiseComponents/Spinner";
-import styles from "../worldWiseComponents/CountryList.module.css";
 import CountryItem from "../worldWiseComponents/CountryItem";
 import Message from "../worldWiseComponents/Message";
-import { useCities } from "../../contexts/CitiesContext";
+
+import styles from "../worldWiseComponents/CountryList.module.css";
 
 function CountryList() {
   const { cities, isLoading } = useCities();

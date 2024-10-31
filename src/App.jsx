@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
+import HomePagePortfolio from "./pages/portfolioPages/HomePagePortfolio";
 import StarRatingPage from "./pages/portfolioPages/StarRatingPage";
 import DateCounterPage from "./pages/portfolioPages/DateCounterPage";
-import AtomicBlogPage from "./pages/portfolioPages/AtomicBlogPage";
+import ReactQuizPage from "./pages/portfolioPages/ReactQuizPage";
 import WorldWisePagePortfolio from "./pages/portfolioPages/WorldWisePagePortfolio";
 import AppLayoutPortfolio from "./pages/portfolioPages/AppLayoutPortfolio";
-import HomePagePortfolio from "./pages/portfolioPages/HomePagePortfolio";
 
 import ProtectedRoute from "./pages/worldWisePages/ProtectedRoute";
 import Homepage from "./pages/worldWisePages/Homepage";
@@ -30,7 +30,7 @@ function App() {
             <Route index element={<HomePagePortfolio />} />
             <Route path="rating" element={<StarRatingPage />} />
             <Route path="counter" element={<DateCounterPage />} />
-            <Route path="atomic" element={<AtomicBlogPage />} />
+            <Route path="react" element={<ReactQuizPage />} />
             <Route path="world" element={<WorldWisePagePortfolio />} />
             <Route path="layout" element={<AppLayoutPortfolio />} />
             <Route path="home" element={<Homepage />} />

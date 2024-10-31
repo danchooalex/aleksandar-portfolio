@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import styles from "./CityItem.module.css";
+import styles from "../worldWiseComponents/CityItem.module.css";
 import { useCities } from "../../contexts/CitiesContext";
 
 const formatDate = (date) =>

@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
+
 import PageNav from "../../components/worldWiseComponents/PageNav";
-import styles from "../worldWisePages/Homepage.module.css";
 import PageNavPortfolio from "../../components/pageNavPortfolio/PageNavPortfolio";
+import styles from "../worldWisePages/Homepage.module.css";
 
 export default function Homepage() {
   return (

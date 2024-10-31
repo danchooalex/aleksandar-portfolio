@@ -3,9 +3,15 @@
 }
 
 .nav ul {
-  @apply flex justify-between;
+  @apply list-none flex flex-row items-center justify-between;
 }
 
 .nav :global(.active) {
   background-color: green;
 }
+
+/* .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */

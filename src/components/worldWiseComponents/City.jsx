@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useCities } from "../../contexts/CitiesContext";
 
-import BackButton from "./BackButton";
-import styles from "./City.module.css";
-import Spinner from "./Spinner";
+import BackButton from "../worldWiseComponents/BackButton";
+import styles from "../worldWiseComponents/City.module.css";
+import Spinner from "../worldWiseComponents/Spinner";
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
