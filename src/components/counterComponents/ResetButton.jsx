@@ -1,4 +1,4 @@
-import styles from "./DateCounter.module.css";
+import styles from "../counterComponents/DateCounter.module.css";
 
 function ResetButton({ onClick }) {
   return (

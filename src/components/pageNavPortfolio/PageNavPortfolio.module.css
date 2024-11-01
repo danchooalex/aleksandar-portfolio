@@ -1,9 +1,13 @@
 .nav {
-  @apply bg-red-400;
+  @apply bg-stone-600;
 }
 
 .nav ul {
   @apply list-none flex flex-row items-center justify-between;
+}
+
+.nav li {
+  @apply text-stone-100;
 }
 
 .nav :global(.active) {

@@ -1,12 +1,15 @@
 import PageNavPortfolio from "../../components/pageNavPortfolio/PageNavPortfolio";
 import StarRating from "../../components/starRatingComponents/StarRating";
+import styles from "./StarRatingPage.module.css";
 
 function StarRatingPage() {
   return (
-    <div>
+    <>
       <PageNavPortfolio />
-      <StarRating />
-    </div>
+      <div className={styles.rate}>
+        <StarRating />
+      </div>
+    </>
   );
 }
 

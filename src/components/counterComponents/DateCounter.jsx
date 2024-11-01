@@ -1,5 +1,5 @@
 import { useReducer } from "react";
-import styles from "./DateCounter.module.css";
+import styles from "../counterComponents/DateCounter.module.css";
 
 import ResetButton from "./ResetButton";
 
