@@ -1,5 +1,7 @@
 import { createContext, useContext, useEffect, useReducer } from "react";
 
+import styles from "../components/quizComponents/Quiz.module.css";
+
 const QuizContext = createContext();
 
 const initialState = {
@@ -34,9 +36,8 @@ function reducer(state, action) {
         status: "active",
         secondsRemaining: state.questions.length * SECS_PER_QUESTION,
       };
-    case "newAnswer":
+    case "newAnswer": {
       const question = state.questions.at(state.index);
-      console.log(question);
 
       return {
         ...state,
@@ -46,6 +47,7 @@ function reducer(state, action) {
             ? state.points + question.points
             : state.points,
       };
+    }
     case "nextQuestion":
       return {
         ...state,
@@ -80,7 +82,6 @@ function QuizProvider({ children }) {
   ] = useReducer(reducer, initialState);
 
   const numQuestions = questions.length;
-  console.log(numQuestions);
   const maxPossiblePoints = questions.reduce(
     (prev, cur) => prev + cur.points,
     0

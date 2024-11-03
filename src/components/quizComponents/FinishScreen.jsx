@@ -1,3 +1,5 @@
+import styles from "./Quiz.module.css";
+
 function FinishScreen({
   points,
   maxPossiblePoints,
@@ -9,14 +11,14 @@ function FinishScreen({
 
   return (
     <>
-      <p className="result">
+      <p className={styles.result}>
         <span>{emoji}</span>
         You scored <strong>{points}</strong> points out of {maxPossiblePoints} (
         {Math.ceil(percentage)} % )
       </p>
-      <p className="highscore">(Highscore: {highscore} points)</p>
+      <p className={styles.highscore}>(Highscore: {highscore} points)</p>
       <button
-        className="btn btn-ui"
+        className={`${styles.btn} ${styles.btnu}`}
         onClick={() => dispatch({ type: "restart" })}
       >
         Restart Quiz

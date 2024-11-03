@@ -93,6 +93,7 @@ function CitiesProvider({ children }) {
       try {
         const res = await fetch(`${BASE_URL}/cities/${id}`);
         const data = await res.json();
+        console.log(data);
         dispatch({ type: "city/loaded", payload: data });
       } catch {
         dispatch({

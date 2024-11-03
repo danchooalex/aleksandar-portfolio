@@ -1,11 +1,12 @@
 import { useQuiz } from "../../contexts/QuizContext";
+import styles from "./Quiz.module.css";
 
 function Progress() {
   const { index, numQuestions, points, maxPossiblePoints, answer } = useQuiz();
   // console.log(numQuestion);
 
   return (
-    <header className="progress">
+    <header className={styles.progress}>
       <progress max={numQuestions} value={index + Number(answer !== null)} />
 
       <p>

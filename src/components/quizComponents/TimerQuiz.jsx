@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { useQuiz } from "../../contexts/QuizContext";
 
+import styles from "./Quiz.module.css";
+
 function Timer() {
   const { dispatch, secondsRemaining } = useQuiz();
   const mins = Math.floor(secondsRemaining / 60);
@@ -17,7 +19,7 @@ function Timer() {
   );
 
   return (
-    <div className="timer">
+    <div className={styles.timer}>
       {mins < 10 && "0"}
       {mins}:{seconds < 10 && "0"}
       {seconds}

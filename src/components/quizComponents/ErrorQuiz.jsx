@@ -1,6 +1,8 @@
+import styles from "./Quiz.module.css";
+
 function Error() {
   return (
-    <p className="error">
+    <p className={styles.error}>
       <span>💥</span> There was an error fecthing questions.
     </p>
   );

@@ -12,6 +12,8 @@ import Footer from "../quizComponents/FooterQuiz.jsx";
 import Timer from "../quizComponents/TimerQuiz.jsx";
 import NextButton from "../quizComponents/NextButtonQuiz.jsx";
 
+import styles from "../quizComponents/Quiz.module.css";
+
 const initialState = {
   questions: [],
   //'loading','error','ready', 'active', 'finished'
@@ -86,7 +88,7 @@ export default function Quiz() {
   const { status } = useQuiz();
 
   return (
-    <div className="app">
+    <div className={styles.main}>
       <Header />
 
       <Main>

@@ -1,5 +1,7 @@
 import { useQuiz } from "../../contexts/QuizContext";
 
+import styles from "./Quiz.module.css";
+
 function NextButton() {
   const { index, dispatch, answer, numQuestions } = useQuiz();
   if (answer === null) return null;
@@ -7,7 +9,7 @@ function NextButton() {
   if (index < numQuestions - 1)
     return (
       <button
-        className="btn btn-ui"
+        className={`${styles.btn} ${styles.btnui}`}
         onClick={() => dispatch({ type: "nextQuestion" })}
       >
         Next
@@ -17,7 +19,7 @@ function NextButton() {
   if (index === numQuestions - 1)
     return (
       <button
-        className="btn btn-ui"
+        className={`${styles.btn} ${styles.btnui}`}
         onClick={() => dispatch({ type: "finish" })}
       >
         Finish
