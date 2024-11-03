@@ -47,7 +47,7 @@ function Map() {
           {isLoadingPosition ? "Loading..." : "Use your position"}
         </Button>
       )}
-
+      console.log(cities)
       <MapContainer
         center={mapPosition}
         zoom={6}
@@ -68,6 +68,7 @@ function Map() {
             </Popup>
           </Marker>
         ))}
+
         <ChangeCenter position={mapPosition} />
         <DetectClick />
       </MapContainer>
