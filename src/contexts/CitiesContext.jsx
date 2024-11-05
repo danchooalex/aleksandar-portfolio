@@ -8,6 +8,7 @@ import {
 
 const BASE_URL =
   "https://07edd2c4-b918-4af8-af27-06e480bcf4bf.mock.pstmn.io/getCities";
+
 const CitiesContext = createContext();
 
 const initialState = {
@@ -68,12 +69,13 @@ function CitiesProvider({ children }) {
 
   useEffect(function () {
     async function fetchCities() {
-      dispatch({ type: "loading" });
+      dispatch({ type: "cities/loaded" });
 
       try {
         const res = await fetch(`${BASE_URL}/cities`);
         const data = await res.json();
         dispatch({ type: "cities/loaded", payload: data });
+        // console.log(data);
       } catch {
         dispatch({
           type: "rejected",

@@ -16,8 +16,12 @@ import AppLayout from "./pages/worldWisePages/AppLayout";
 import CityList from "./components/worldWiseComponents/CityList";
 import City from "./components/worldWiseComponents/City";
 import CountryList from "./components/worldWiseComponents/CountryList";
+import Map from "./components/worldWiseComponents/Map";
 import Form from "./components/worldWiseComponents/Form";
+import Sidebar from "./components/worldWiseComponents/Sidebar";
 import PageNotFound from "./pages/worldWisePages/PageNotFound";
+import UnderConstruction from "./pages/worldWisePages/UnderConstruction";
+
 import { CitiesProvider } from "./contexts/CitiesContext";
 import { AuthProvider } from "./contexts/FakeAuthContext";
 
@@ -37,6 +41,11 @@ function App() {
             <Route path="pricing" element={<Pricing />} />
             <Route path="product" element={<Product />} />
             <Route path="login" element={<Login />} />
+            <Route path="map" element={<Map />} />
+            <Route path="form" element={<Form />} />
+            <Route path="sidebar" element={<Sidebar />} />
+            <Route path="construction" element={<UnderConstruction />} />
+
             <Route
               path="app"
               element={

@@ -6,7 +6,14 @@ function PageNavPortfolio() {
     <nav className={styles.nav}>
       <ul>
         <li>
-          <NavLink to="/">H O M E</NavLink>
+          <NavLink
+            to="/"
+            className={({ isActive, isPending }) =>
+              isPending ? "pending" : isActive ? "active" : ""
+            }
+          >
+            H O M E
+          </NavLink>
         </li>
         <li>
           <NavLink to="/rating">R A T I N G</NavLink>

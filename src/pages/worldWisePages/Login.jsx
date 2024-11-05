@@ -5,6 +5,7 @@ import { useAuth } from "../../contexts/FakeAuthContext";
 import Button from "../../components/worldWiseComponents/Button";
 import PageNav from "../../components/worldWiseComponents/PageNav";
 import styles from "../worldWisePages/Login.module.css";
+import PageNavPortfolio from "../../components/pageNavPortfolio/PageNavPortfolio";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
@@ -22,40 +23,43 @@ export default function Login() {
 
   useEffect(
     function () {
-      if (isAuthenticated) navigate("/app", { replace: true });
+      if (isAuthenticated) navigate("/construction", { replace: true });
     },
     [isAuthenticated, navigate]
   );
 
   return (
-    <main className={styles.login}>
-      <PageNav />
+    <>
+      <PageNavPortfolio />
+      <main className={styles.login}>
+        <PageNav />
 
-      <form className={styles.form} onSubmit={handleSubmit}>
-        <div className={styles.row}>
-          <label htmlFor="email">Email address</label>
-          <input
-            type="email"
-            id="email"
-            onChange={(e) => setEmail(e.target.value)}
-            value={email}
-          />
-        </div>
+        <form className={styles.form} onSubmit={handleSubmit}>
+          <div className={styles.row}>
+            <label htmlFor="email">Email address</label>
+            <input
+              type="email"
+              id="email"
+              onChange={(e) => setEmail(e.target.value)}
+              value={email}
+            />
+          </div>
 
-        <div className={styles.row}>
-          <label htmlFor="password">Password</label>
-          <input
-            type="password"
-            id="password"
-            onChange={(e) => setPassword(e.target.value)}
-            value={password}
-          />
-        </div>
+          <div className={styles.row}>
+            <label htmlFor="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              onChange={(e) => setPassword(e.target.value)}
+              value={password}
+            />
+          </div>
 
-        <div>
-          <Button type="primary">Login</Button>
-        </div>
-      </form>
-    </main>
+          <div>
+            <Button type="primary">Login</Button>
+          </div>
+        </form>
+      </main>
+    </>
   );
 }

@@ -1,19 +1,18 @@
 .nav {
-  @apply bg-stone-600;
+  @apply bg-stone-600 font-bold text-4xl;
 }
 
 .nav ul {
-  @apply list-none flex flex-row items-center justify-between;
+  @apply list-none flex flex-row  justify-between;
 }
 
 .nav li {
   @apply text-stone-100;
 }
 
-.nav :global(.active) {
-  background-color: green;
+.nav global(.active) {
+  @apply text-cyan-200;
 }
-
 /* .nav {
   display: flex;
   align-items: center;

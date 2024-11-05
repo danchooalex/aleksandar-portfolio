@@ -16,7 +16,16 @@ export default [
         ecmaFeatures: { jsx: true },
         sourceType: 'module',
       },
+      module.exports = {
+        rules: {
+          "react-refresh/only-export-components": [
+            "warn",
+            { allowExportNames: ["loader"] },
+          ],
+        },
+      },
     },
+    
     settings: { react: { version: '18.3' } },
     plugins: {
       react,

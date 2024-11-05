@@ -7,7 +7,7 @@ function ReactQuizPage() {
   return (
     <div>
       <PageNavPortfolio />
-      <div className={styles.quiz}>
+      <div className={`${styles.quiz} ${styles.mtquiz}`}>
         <Quiz />
       </div>
     </div>
