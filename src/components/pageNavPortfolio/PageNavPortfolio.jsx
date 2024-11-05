@@ -15,6 +15,8 @@ function PageNavPortfolio() {
             H O M E
           </NavLink>
         </li>
+      </ul>
+      <ul>
         <li>
           <NavLink to="/rating">R A T I N G</NavLink>
         </li>

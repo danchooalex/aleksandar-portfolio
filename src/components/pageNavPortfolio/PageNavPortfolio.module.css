@@ -1,9 +1,9 @@
 .nav {
-  @apply bg-stone-600 font-bold text-4xl;
+  @apply bg-stone-600 font-bold text-4xl flex flex-row justify-between;
 }
 
 .nav ul {
-  @apply list-none flex flex-row  justify-between;
+  @apply list-none  flex flex-row gap-12;
 }
 
 .nav li {
