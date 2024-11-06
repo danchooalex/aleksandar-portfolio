@@ -46,36 +46,34 @@ function App() {
 
   return (
     <AuthProvider>
-      <CitiesProvider>
-        <BrowserRouter>
-          <Routes>
-            <Route index element={<HomePagePortfolio />} />
-            <Route path="rating" element={<StarRatingPage />} />
-            <Route path="counter" element={<DateCounterPage />} />
-            <Route path="react" element={<ReactQuizPage />} />
-            <Route path="world" element={<WorldWisePagePortfolio />} />
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<HomePagePortfolio />} />
+          <Route path="rating" element={<StarRatingPage />} />
+          <Route path="counter" element={<DateCounterPage />} />
+          <Route path="react" element={<ReactQuizPage />} />
 
-            <Route path="home" element={<Homepage />} />
-            <Route path="product" element={<Product />} />
-            <Route path="pricing" element={<Pricing />} />
-            <Route path="login" element={<Login />} />
-            <Route path="map" element={<Map />} />
-            <Route index element={<Navigate replace to="cities" />} />
-            <Route
-              path="cities"
-              element={<CityList cities={cities} isLoading={isLoading} />}
-            />
-            <Route path="cities/:id" element={<City />} />
-            <Route
-              path="countries"
-              element={<CountryList cities={cities} isLoading={isLoading} />}
-            />
-            <Route path="form" element={<Form />} />
-            <Route />
-            <Route path="*" element={<PageNotFound />} />
-          </Routes>
-        </BrowserRouter>
-      </CitiesProvider>
+          <Route path="world" element={<WorldWisePagePortfolio />} />
+          <Route path="home" element={<Homepage />} />
+          <Route path="product" element={<Product />} />
+          <Route path="pricing" element={<Pricing />} />
+          <Route path="login" element={<Login />} />
+          <Route path="map" element={<Map />} />
+          <Route index element={<Navigate replace to="cities" />} />
+          <Route
+            path="cities"
+            element={<CityList cities={cities} isLoading={isLoading} />}
+          />
+          <Route path="cities/:id" element={<City />} />
+          <Route
+            path="countries"
+            element={<CountryList cities={cities} isLoading={isLoading} />}
+          />
+          <Route path="form" element={<Form />} />
+          <Route />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </BrowserRouter>
     </AuthProvider>
   );
 }
