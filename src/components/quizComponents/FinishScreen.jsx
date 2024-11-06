@@ -8,11 +8,9 @@ function FinishScreen({
   emoji,
 }) {
   const percentage = Number((points / maxPossiblePoints) * 100);
-  console.log(points);
 
   return (
     <>
-      console.log(points)
       <p className={styles.result}>
         <span>{emoji}</span>
         You scored <strong>{points}</strong> points out of {maxPossiblePoints} (

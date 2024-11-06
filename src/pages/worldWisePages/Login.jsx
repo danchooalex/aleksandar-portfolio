@@ -23,7 +23,7 @@ export default function Login() {
 
   useEffect(
     function () {
-      if (isAuthenticated) navigate("/construction", { replace: true });
+      if (isAuthenticated) navigate("/map", { replace: true });
     },
     [isAuthenticated, navigate]
   );
