@@ -91,7 +91,6 @@ function QuizProvider({ children }) {
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
-    console.log("hello");
   }, []);
 
   return (

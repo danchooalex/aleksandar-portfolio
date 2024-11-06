@@ -18,6 +18,7 @@ import PageNotFound from "./pages/worldWisePages/PageNotFound";
 import Map from "./components/worldWiseComponents/Map";
 
 import { AuthProvider } from "./contexts/FakeAuthContext";
+import { CitiesProvider } from "./contexts/CitiesContext";
 
 const BASE_URL = "http://localhost:8000";
 
@@ -43,33 +44,35 @@ function App() {
 
   return (
     <AuthProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<HomePagePortfolio />} />
-          <Route path="rating" element={<StarRatingPage />} />
-          <Route path="counter" element={<DateCounterPage />} />
-          <Route path="react" element={<ReactQuizPage />} />
+      <CitiesProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<HomePagePortfolio />} />
+            <Route path="rating" element={<StarRatingPage />} />
+            <Route path="counter" element={<DateCounterPage />} />
+            <Route path="react" element={<ReactQuizPage />} />
 
-          <Route path="world" element={<WorldWisePagePortfolio />} />
-          <Route path="product" element={<Product />} />
-          <Route path="pricing" element={<Pricing />} />
-          <Route path="login" element={<Login />} />
-          <Route path="map" element={<Map />} />
-          <Route index element={<Navigate replace to="cities" />} />
-          <Route
-            path="cities"
-            element={<CityList cities={cities} isLoading={isLoading} />}
-          />
-          <Route path="cities/:id" element={<City />} />
-          <Route
-            path="countries"
-            element={<CountryList cities={cities} isLoading={isLoading} />}
-          />
-          <Route path="form" element={<Form />} />
-          <Route />
-          <Route path="*" element={<PageNotFound />} />
-        </Routes>
-      </BrowserRouter>
+            <Route path="world" element={<WorldWisePagePortfolio />} />
+            <Route path="product" element={<Product />} />
+            <Route path="pricing" element={<Pricing />} />
+            <Route path="login" element={<Login />} />
+            <Route path="map" element={<Map />} />
+            <Route index element={<Navigate replace to="cities" />} />
+            <Route
+              path="cities"
+              element={<CityList cities={cities} isLoading={isLoading} />}
+            />
+            <Route path="cities/:id" element={<City />} />
+            <Route
+              path="countries"
+              element={<CountryList cities={cities} isLoading={isLoading} />}
+            />
+            <Route path="form" element={<Form />} />
+            <Route />
+            <Route path="*" element={<PageNotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </CitiesProvider>
     </AuthProvider>
   );
 }

@@ -4,9 +4,7 @@ import Homepage from "../worldWisePages/Homepage";
 function WorldWisePagePortfolio() {
   return (
     <div>
-      <CitiesProvider>
-        <Homepage />
-      </CitiesProvider>
+      <Homepage />
     </div>
   );
 }
