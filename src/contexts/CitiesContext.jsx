@@ -6,8 +6,7 @@ import {
   useCallback,
 } from "react";
 
-const BASE_URL =
-  "https://07edd2c4-b918-4af8-af27-06e480bcf4bf.mock.pstmn.io/getCities";
+const BASE_URL = "http://localhost:8000";
 
 const CitiesContext = createContext();
 

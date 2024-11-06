@@ -36,7 +36,7 @@ function reducer(state, action) {
         status: "active",
         secondsRemaining: state.questions.length * SECS_PER_QUESTION,
       };
-    case "newAnswer": {
+    case "newAnswer":
       const question = state.questions.at(state.index);
 
       return {
@@ -47,7 +47,7 @@ function reducer(state, action) {
             ? state.points + question.points
             : state.points,
       };
-    }
+
     case "nextQuestion":
       return {
         ...state,
@@ -86,14 +86,12 @@ function QuizProvider({ children }) {
     (prev, cur) => prev + cur.points,
     0
   );
-
   useEffect(function () {
-    fetch(
-      "https://7feee877-6587-4508-8a98-a97838a17064.mock.pstmn.io/getQuestions"
-    )
+    fetch("http://localhost:9000/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
+    console.log("hello");
   }, []);
 
   return (
