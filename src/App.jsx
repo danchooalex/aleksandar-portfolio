@@ -6,9 +6,7 @@ import StarRatingPage from "./pages/portfolioPages/StarRatingPage";
 import DateCounterPage from "./pages/portfolioPages/DateCounterPage";
 import ReactQuizPage from "./pages/portfolioPages/ReactQuizPage";
 import WorldWisePagePortfolio from "./pages/portfolioPages/WorldWisePagePortfolio";
-import AppLayoutPortfolio from "./pages/portfolioPages/AppLayoutPortfolio";
 
-import Homepage from "./pages/worldWisePages/Homepage";
 import Pricing from "./pages/worldWisePages/Pricing";
 import Product from "./pages/worldWisePages/Product";
 import Login from "./pages/worldWisePages/Login";
@@ -19,7 +17,6 @@ import Form from "./components/worldWiseComponents/Form";
 import PageNotFound from "./pages/worldWisePages/PageNotFound";
 import Map from "./components/worldWiseComponents/Map";
 
-import { CitiesProvider } from "./contexts/CitiesContext";
 import { AuthProvider } from "./contexts/FakeAuthContext";
 
 const BASE_URL = "http://localhost:8000";
@@ -54,7 +51,6 @@ function App() {
           <Route path="react" element={<ReactQuizPage />} />
 
           <Route path="world" element={<WorldWisePagePortfolio />} />
-          <Route path="home" element={<Homepage />} />
           <Route path="product" element={<Product />} />
           <Route path="pricing" element={<Pricing />} />
           <Route path="login" element={<Login />} />

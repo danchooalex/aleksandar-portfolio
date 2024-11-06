@@ -1,5 +1,6 @@
-import Map from "../../components/worldWiseComponents/Map";
 import Sidebar from "../../components/worldWiseComponents/Sidebar";
+import Map from "../../components/worldWiseComponents/Map";
+import User from "../../components/worldWiseComponents/User";
 
 import styles from "../worldWisePages/AppLayout.module.css";
 
@@ -8,6 +9,7 @@ function AppLayout() {
     <div className={styles.app}>
       <Sidebar />
       <Map />
+      <User />
     </div>
   );
 }
