@@ -1,6 +1,6 @@
 import { useQuiz } from "../../contexts/QuizContext";
 
-import styles from "./Quiz.module.css";
+import styles from "../quizComponents/Quiz.module.css";
 
 function NextButton() {
   const { index, dispatch, answer, numQuestions } = useQuiz();
