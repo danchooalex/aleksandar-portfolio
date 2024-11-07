@@ -1,13 +1,13 @@
 .rightContainer {
-  @apply w-full h-full bg-[#42484d] m-auto flex items-center justify-center;
+  @apply w-full h-full bg-[#42484d] m-auto flex items-center justify-center rounded-xl;
 }
 
 .table {
-  @apply border-solid border-[1px] rounded-md w-1/2 h-1/2  border-collapse border-lime-50 bg-violet-500;
+  @apply border-solid border-[1px]  w-1/2 h-1/2 border-lime-50 border-collapse rounded-b-full;
 }
 
 .th {
-  @apply border-solid border-[1px]  flex items-start gap-2 border-lime-50;
+  @apply border-solid border-[1px]  flex items-start gap-2 border-lime-50 border-collapse;
 }
 
 .btn {

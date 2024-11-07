@@ -3,9 +3,9 @@
 }
 
 .left {
-  @apply bg-[#42484d] text-red-500 border-solid border-slate-500 w-screen h-screen text-center flex items-center;
+  @apply bg-[#2d3439]   w-screen h-screen text-center flex items-center m-6 ml-0 rounded-lg;
 }
 
 .right {
-  @apply bg-[#42484d] text-red-500 border-solid border-slate-500 w-screen h-screen flex items-center;
+  @apply bg-[#2d3439]   w-screen h-screen flex items-center m-3 rounded-lg;
 }

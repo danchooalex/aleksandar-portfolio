@@ -1,11 +1,7 @@
 .nav {
-  @apply bg-[#42484d] font-bold text-4xl  flex flex-row justify-between text-yellow-50 -tracking-normal m-5;
+  @apply bg-[#42484d] font-bold text-4xl  flex flex-row justify-between text-yellow-50 tracking-normal m-5 border-t-4 border-indigo-500;
 }
 
 .nav ul {
   @apply list-none  flex flex-row gap-8;
-}
-
-.nav li {
-  @apply text-stone-100;
 }

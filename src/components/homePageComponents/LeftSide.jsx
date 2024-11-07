@@ -8,12 +8,12 @@ function LeftSide() {
   return (
     <main className={styles.leftContainer}>
       <img className={styles.image} src="./mug.jpg" />
-      <p>
+      <p className={styles.leftP}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quaerat
         consequatur quae non. Nisi officia quae nemo. Harum blanditiis alias
         ducimus eos sint, facere nisi quisquam rem iure voluptate. Magnam?
       </p>
-      <div>
+      <div className={styles.icoSettings}>
         <FaGithub />
         <FaLinkedin />
         <FaFacebook />

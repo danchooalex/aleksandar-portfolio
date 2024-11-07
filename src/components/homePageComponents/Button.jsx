@@ -3,7 +3,7 @@ import styles from "./Button.module.css";
 function Button() {
   return (
     <button className={styles.btn} onClick={() => alert("Stop poking me")}>
-      Button
+      download CV
     </button>
   );
 }
