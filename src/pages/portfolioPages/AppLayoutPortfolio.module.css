@@ -7,5 +7,5 @@
 }
 
 .right {
-  @apply bg-[#2d3439]   w-screen h-screen flex items-center m-3 rounded-lg;
+  @apply bg-[#2d3439]   w-screen h-screen flex items-center m-3 rounded-sm;
 }
