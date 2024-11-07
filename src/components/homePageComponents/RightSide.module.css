@@ -1,0 +1,27 @@
+.rightContainer {
+  @apply w-full h-full bg-[#42484d] m-auto flex items-center justify-center;
+}
+
+.table {
+  @apply border-solid border-[1px] rounded-md w-1/2 h-1/2  border-collapse border-lime-50 bg-violet-500;
+}
+
+.th {
+  @apply border-solid border-[1px]  flex items-start gap-2 border-lime-50;
+}
+
+.btn {
+  @apply bg-red-800 rounded-full w-6 h-6;
+}
+
+.btn1 {
+  @apply bg-yellow-400 rounded-full w-6 h-6;
+}
+
+.btn2 {
+  @apply bg-green-500 rounded-full w-6 h-6;
+}
+
+.text {
+  @apply text-yellow-200;
+}

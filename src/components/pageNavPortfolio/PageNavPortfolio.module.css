@@ -1,20 +1,11 @@
 .nav {
-  @apply bg-stone-600 font-bold text-4xl flex flex-row justify-between;
+  @apply bg-[#42484d] font-bold text-4xl  flex flex-row justify-between text-yellow-50 -tracking-normal m-5;
 }
 
 .nav ul {
-  @apply list-none  flex flex-row gap-12;
+  @apply list-none  flex flex-row gap-8;
 }
 
 .nav li {
   @apply text-stone-100;
 }
-
-.nav global(.active) {
-  @apply text-cyan-200;
-}
-/* .nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */

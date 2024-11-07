@@ -1,4 +1,5 @@
 import LeftSide from "../../components/homePageComponents/LeftSide";
+import RightSide from "../../components/homePageComponents/RightSide";
 import styles from "./AppLayoutPortfolio.module.css";
 
 function AppLayoutPortfolio() {
@@ -7,7 +8,9 @@ function AppLayoutPortfolio() {
       <div className={styles.left}>
         <LeftSide />
       </div>
-      <div className={styles.right}>RIGHT</div>
+      <div className={styles.right}>
+        <RightSide />
+      </div>
     </div>
   );
 }

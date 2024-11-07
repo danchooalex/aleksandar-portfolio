@@ -1,11 +1,11 @@
 .container {
-  @apply flex flex-row justify-between items-center bg-stone-600;
+  @apply flex flex-row justify-between items-center bg-[#42484d];
 }
 
 .left {
-  @apply bg-black text-red-500 border-solid border-slate-500 w-screen h-screen text-center flex items-center;
+  @apply bg-[#42484d] text-red-500 border-solid border-slate-500 w-screen h-screen text-center flex items-center;
 }
 
 .right {
-  @apply bg-white text-red-500 border-solid border-slate-500 w-screen h-screen;
+  @apply bg-[#42484d] text-red-500 border-solid border-slate-500 w-screen h-screen flex items-center;
 }

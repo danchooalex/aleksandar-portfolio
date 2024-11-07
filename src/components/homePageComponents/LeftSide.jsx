@@ -6,7 +6,7 @@ import Button from "./Button";
 
 function LeftSide() {
   return (
-    <aside className={styles.leftContainer}>
+    <main className={styles.leftContainer}>
       <img className={styles.image} src="./mug.jpg" />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quaerat
@@ -19,8 +19,9 @@ function LeftSide() {
         <FaFacebook />
       </div>
       <Button />
-    </aside>
+    </main>
   );
 }
 
 export default LeftSide;
+``;
