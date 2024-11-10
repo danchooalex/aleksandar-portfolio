@@ -1,0 +1,19 @@
+.aside {
+  @apply fixed left-[0%] top-1/2 flex  translate-y-[-50%] bg-transparent bg-cover bg-center bg-no-repeat;
+}
+
+.section {
+  @apply float-left sticky left-0 flex h-fit w-fit flex-col justify-center text-[#41dcff];
+}
+
+.lies {
+  @apply flex h-[24px] w-[135px] items-center rounded-tr-sm;
+}
+
+.az {
+  @apply ml-[-105px] flex h-8 w-full  justify-end gap-10 items-center font-extralight text-xl text-[#41dcff] duration-300 hover:ml-0 bg-[#292524];
+}
+
+.components {
+  @apply flex mr-2 h-6 w-6 text-[#41dcff] items-center;
+}

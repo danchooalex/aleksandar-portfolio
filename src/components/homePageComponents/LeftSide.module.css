@@ -11,5 +11,5 @@
 }
 
 .leftP {
-  @apply text-3xl tracking-wide max-w-fit;
+  @apply text-3xl tracking-wide max-w-[300px] m-auto;
 }

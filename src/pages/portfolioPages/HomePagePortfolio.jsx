@@ -1,4 +1,6 @@
 import PageNavPortfolio from "../../components/pageNavPortfolio/PageNavPortfolio";
+import SocialMedia from "../../components/socialMediaComponent/SocialMedia";
+
 import AppLayoutPortfolio from "./AppLayoutPortfolio";
 
 function HomePagePortfolio() {
@@ -6,6 +8,7 @@ function HomePagePortfolio() {
     <div>
       <PageNavPortfolio />
       <AppLayoutPortfolio />
+      <SocialMedia />
     </div>
   );
 }

@@ -1,21 +1,17 @@
 .counter {
-  @apply flex flex-col items-center justify-center text-center gap-4 text-[2rem] font-bold m-20;
+  @apply flex flex-col items-center justify-center text-center gap-4 text-3xl font-bold m-20;
 }
 
 .counter * {
-  @apply text-stone-400 p-4
-    /* font-size: inherit;
+  @apply text-stone-400 p-4 rounded-sm  text-2xl
+  /* font-size: inherit;
     padding: 0.8rem; */;
 }
 
 .center {
-  @apply flex flex-row items-center justify-center gap-6 text-slate-400;
+  @apply flex flex-row items-center justify-center gap-6 text-stone-400;
 }
 
 .btn {
-  @apply bg-stone-800 rounded-md w-auto h-auto;
-}
-
-.input {
-  @apply bg-[#41dcff] text-[#41dcff];
+  @apply bg-stone-800 rounded-sm w-auto h-auto;
 }

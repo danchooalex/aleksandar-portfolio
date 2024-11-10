@@ -2,6 +2,7 @@ import PageNavPortfolio from "../../components/pageNavPortfolio/PageNavPortfolio
 import Quiz from "../../components/quizComponents/Quiz";
 
 import styles from "../../components/quizComponents/Quiz.module.css";
+import SocialMedia from "../../components/socialMediaComponent/SocialMedia";
 import { QuizProvider } from "../../contexts/QuizContext";
 
 function ReactQuizPage() {
@@ -13,6 +14,7 @@ function ReactQuizPage() {
           <Quiz />
         </div>
       </QuizProvider>
+      <SocialMedia />
     </div>
   );
 }
