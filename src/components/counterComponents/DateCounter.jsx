@@ -57,6 +57,7 @@ function DateCounter() {
     <div className={styles.counter}>
       <div>
         <input
+          class="accent"
           type="range"
           min="0"
           max="10"

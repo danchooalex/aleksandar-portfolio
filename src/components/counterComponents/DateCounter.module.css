@@ -3,15 +3,19 @@
 }
 
 .counter * {
-  @apply text-stone-300 p-4
+  @apply text-stone-400 p-4
     /* font-size: inherit;
     padding: 0.8rem; */;
 }
 
 .center {
-  @apply flex flex-row items-center justify-center gap-6 text-slate-700;
+  @apply flex flex-row items-center justify-center gap-6 text-slate-400;
 }
 
 .btn {
-  @apply bg-stone-600 rounded-md w-auto h-auto;
+  @apply bg-stone-800 rounded-md w-auto h-auto;
+}
+
+.input {
+  @apply bg-[#41dcff] text-[#41dcff];
 }

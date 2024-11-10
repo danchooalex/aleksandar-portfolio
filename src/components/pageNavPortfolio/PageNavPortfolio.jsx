@@ -3,7 +3,7 @@ import styles from "./PageNavPortfolio.module.css";
 
 const styleNav = {
   textDecoration: "none",
-  color: "#f1f3f5",
+  color: "#a8a29e",
   fontWeight: "normal",
 };
 
@@ -15,7 +15,11 @@ function PageNavPortfolio() {
           <NavLink
             style={({ isActive }) => {
               return isActive
-                ? { color: "#ced4da", fontWeight: "bold" }
+                ? {
+                    color: "#41dcff",
+                    fontWeight: "bold",
+                    textDecoration: "none",
+                  }
                 : styleNav;
             }}
             to="/"
@@ -29,7 +33,11 @@ function PageNavPortfolio() {
           <NavLink
             style={({ isActive }) => {
               return isActive
-                ? { color: "#ced4da", fontWeight: "bold" }
+                ? {
+                    color: "#41dcff",
+                    fontWeight: "bold",
+                    textDecoration: "none",
+                  }
                 : styleNav;
             }}
             to="/rating"
@@ -41,7 +49,11 @@ function PageNavPortfolio() {
           <NavLink
             style={({ isActive }) => {
               return isActive
-                ? { color: "#ced4da", fontWeight: "bold" }
+                ? {
+                    color: "#41dcff",
+                    fontWeight: "bold",
+                    textDecoration: "none",
+                  }
                 : styleNav;
             }}
             to="/counter"
@@ -53,7 +65,11 @@ function PageNavPortfolio() {
           <NavLink
             style={({ isActive }) => {
               return isActive
-                ? { color: "#ced4da", fontWeight: "bold" }
+                ? {
+                    color: "#41dcff",
+                    fontWeight: "bold",
+                    textDecoration: "none",
+                  }
                 : styleNav;
             }}
             to="/react"
@@ -65,7 +81,11 @@ function PageNavPortfolio() {
           <NavLink
             style={({ isActive }) => {
               return isActive
-                ? { color: "#ced4da", fontWeight: "bold" }
+                ? {
+                    color: "#41dcff",
+                    fontWeight: "bold",
+                    textDecoration: "none",
+                  }
                 : styleNav;
             }}
             to="/world"

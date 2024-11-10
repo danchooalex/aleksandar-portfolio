@@ -1,5 +1,5 @@
 .rightContainer {
-  @apply w-full h-full bg-[#42484d] m-auto flex items-center justify-center rounded-xl;
+  @apply w-full h-full bg-[#0c0a09] m-auto flex items-center justify-center rounded-sm;
 }
 
 .table {

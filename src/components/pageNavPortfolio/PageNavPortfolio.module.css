@@ -1,5 +1,5 @@
 .nav {
-  @apply bg-[#42484d] font-bold text-4xl  flex flex-row justify-between text-yellow-50 tracking-normal m-5 border-t-4 border-indigo-500;
+  @apply bg-[#0c0a09] font-bold text-4xl  flex flex-row justify-between  tracking-normal m-5 border-t-4;
 }
 
 .nav ul {
