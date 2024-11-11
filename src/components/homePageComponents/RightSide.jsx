@@ -18,7 +18,9 @@ function RightSide() {
         <tbody>
           <tr>
             <td className={styles.text}>
-              <aside>Image here</aside>
+              <div className={styles.imageContainer}>
+                <img className={styles.image} src="./coder.JPG" />
+              </div>
             </td>
           </tr>
         </tbody>

@@ -3,7 +3,7 @@
 }
 
 .table {
-  @apply h-1/2 w-1/2 border-collapse rounded-b-full border-[1px] border-solid border-stone-50;
+  @apply h-full w-full border-collapse rounded-b-full border-[1px] border-solid border-stone-50;
 }
 
 .th {
@@ -24,4 +24,10 @@
 
 .text {
   @apply text-yellow-200;
+}
+.image {
+  @apply h-full w-full;
+}
+.imageContainer {
+  @apply h-full w-full;
 }
