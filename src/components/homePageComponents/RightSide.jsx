@@ -18,10 +18,7 @@ function RightSide() {
         <tbody>
           <tr>
             <td className={styles.text}>
-              <aside>
-                <p>const</p>
-                <p>asd</p>
-              </aside>
+              <aside>Image here</aside>
             </td>
           </tr>
         </tbody>
