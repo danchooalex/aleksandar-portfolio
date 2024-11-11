@@ -1,25 +1,25 @@
 .rightContainer {
-  @apply w-full h-full bg-[#0c0a09] m-auto flex items-center justify-center rounded-sm;
+  @apply flex h-full w-full items-center justify-center bg-[#0c0a09];
 }
 
 .table {
-  @apply border-solid border-[1px]  w-1/2 h-1/2 border-lime-50 border-collapse rounded-b-full;
+  @apply h-1/2 w-1/2 border-collapse rounded-b-full border-[1px] border-solid border-stone-50;
 }
 
 .th {
-  @apply border-solid border-[1px]  flex items-start gap-2 border-lime-50 border-collapse;
+  @apply flex border-collapse items-start gap-2 border-[1px] border-solid border-lime-50;
 }
 
 .btn {
-  @apply bg-red-800 rounded-full w-6 h-6;
+  @apply h-6 w-6 rounded-full bg-red-800;
 }
 
 .btn1 {
-  @apply bg-yellow-400 rounded-full w-6 h-6;
+  @apply h-6 w-6 rounded-full bg-yellow-400;
 }
 
 .btn2 {
-  @apply bg-green-500 rounded-full w-6 h-6;
+  @apply h-6 w-6 rounded-full bg-green-500;
 }
 
 .text {

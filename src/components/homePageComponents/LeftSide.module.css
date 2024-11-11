@@ -1,9 +1,9 @@
 .leftContainer {
-  @apply w-full h-full bg-[#0c0a09] m-auto rounded-sm;
+  @apply w-full h-full bg-[#0c0a09]  rounded-sm m-auto;
 }
 
 .image {
-  @apply rounded-full w-96 h-96 mb-10 mt-10;
+  @apply rounded-full w-96 h-96 m-auto;
 }
 
 .icoSettings {
@@ -11,5 +11,5 @@
 }
 
 .leftP {
-  @apply text-3xl tracking-wide max-w-[300px] m-auto;
+  @apply text-2xl tracking-wide max-w-[300px] m-auto;
 }

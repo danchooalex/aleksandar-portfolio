@@ -1,5 +1,5 @@
 .container {
-  @apply flex flex-row justify-between items-center bg-[#0c0a09];
+  @apply flex flex-row justify-between items-center bg-[#0c0a09] mt-20;
 }
 
 .left {

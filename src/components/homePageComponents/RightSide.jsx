@@ -1,5 +1,7 @@
 import styles from "./RightSide.module.css";
 
+const coder = [{}];
+
 function RightSide() {
   return (
     <aside className={styles.rightContainer}>
@@ -16,12 +18,10 @@ function RightSide() {
         <tbody>
           <tr>
             <td className={styles.text}>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                architecto aspernatur modi corrupti ullam nostrum ipsam dolorem
-                tempore necessitatibus sapiente, nihil, sed excepturi?
-                Temporibus incidunt facilis dicta hic doloribus itaque.
-              </p>
+              <aside>
+                <p>const</p>
+                <p>asd</p>
+              </aside>
             </td>
           </tr>
         </tbody>

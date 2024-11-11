@@ -6,3 +6,5 @@ accent:#292524 -stone 800 (buttons)
 React icon #41dcff - custom color (use for hovers, maybe for icons and active nav bar)
 
 Input fields: #44403c stone-700
+
+Quiz shade of reactBlue #9C355C

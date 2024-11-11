@@ -1,10 +1,3 @@
-module.exports = {
-    root: true,
-    extends: ["plugin:tailwindcss/recommended"],
-  };
-  overrides: [
-    {
-      files: ['*.vue'],
-      parser: 'vue-eslint-parser',
-    },
-  ],
+{
+  "extends": ["react-app"]
+}
