@@ -7,15 +7,15 @@
 }
 
 .main {
-  @apply w-[50rem] mb-[2rem];
+  @apply mb-[2rem] w-[50rem];
 }
 
 .quizh {
-  @apply w-[66rem] mb-[4rem] flex items-center justify-between;
+  @apply mb-[4rem] flex w-[66rem] items-center justify-between;
 }
 
 .error {
-  @apply text-center text-[1.6rem] font-medium p-[2rem] bg-[#495057] rounded-full;
+  @apply rounded-full bg-[#495057] p-[2rem] text-center text-[1.6rem] font-medium;
 }
 
 .quiz img {
@@ -23,19 +23,19 @@
 }
 
 .quiz h1 {
-  @apply font-sans text-[5.6rem] text-stone-300 font-semibold;
+  @apply font-["Codystar"] text-[5.6rem] font-semibold text-stone-300;
 }
 
 .quiz h2 {
-  @apply text-[3.6rem] mb-[2rem];
+  @apply mb-[2rem] text-[3.6rem];
 }
 
 .quiz h3 {
-  @apply text-[2.4rem] font-semibold mb-[4rem];
+  @apply mb-[4rem] text-[2.4rem] font-semibold;
 }
 
 .quiz h4 {
-  @apply text-[2.2rem] font-semibold mb-[2.4rem] text-center;
+  @apply mb-[2.4rem] text-center text-[2.2rem] font-semibold;
 }
 
 .start {
@@ -69,7 +69,7 @@ progress {
 }
 
 .btn {
-  @apply block text-inherit text-[2rem] border-2 border-stone-900 bg-stone-800 rounded-full px-5 py-1 cursor-pointer duration-300;
+  @apply block cursor-pointer rounded-full border-2 border-stone-900 bg-stone-800 px-5 py-1 text-[2rem] text-inherit duration-300;
 }
 
 .btn:not([disabled]):hover {
@@ -89,7 +89,7 @@ progress {
 }
 
 .options {
-  @apply flex flex-col gap-[1.2rem] mb-[3.2rem];
+  @apply mb-[3.2rem] flex flex-col gap-[1.2rem];
 }
 
 .btnoption {
@@ -124,27 +124,27 @@ progress {
 }
 
 .result span {
-  @apply text-[2.2rem] mr-[4px];
+  @apply mr-[4px] text-[2.2rem];
 }
 
 .highscore {
-  @apply text-[1.8rem] text-center mb-[4.8rem];
+  @apply mb-[4.8rem] text-center text-[1.8rem];
 }
 
 .loaderc {
-  @apply flex flex-col items-center mt-[4rem] gap-[1.6rem] text-stone-400 text-[1.4rem];
+  @apply mt-[4rem] flex flex-col items-center gap-[1.6rem] text-[1.4rem] text-stone-400;
 }
 
 .timer {
-  @apply float-left text-[1.8rem] text-stone-400 border-2 border-[#292524] rounded-full px-5 py-1;
+  @apply float-left rounded-full border-2 border-[#292524] px-5 py-1 text-[1.8rem] text-stone-400;
 }
 
 /* CREDIT: https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
 .loader {
   width: 50px;
   height: 24px;
-  background: radial-gradient(circle closest-side, currentColor 90%, #0000) 0%
-      50%,
+  background:
+    radial-gradient(circle closest-side, currentColor 90%, #0000) 0% 50%,
     radial-gradient(circle closest-side, currentColor 90%, #0000) 50% 50%,
     radial-gradient(circle closest-side, currentColor 90%, #0000) 100% 50%;
   background-size: calc(100% / 3) 12px;
@@ -154,27 +154,39 @@ progress {
 
 @keyframes loader {
   20% {
-    background-position: 0% 0%, 50% 50%, 100% 50%;
+    background-position:
+      0% 0%,
+      50% 50%,
+      100% 50%;
   }
   40% {
-    background-position: 0% 100%, 50% 0%, 100% 50%;
+    background-position:
+      0% 100%,
+      50% 0%,
+      100% 50%;
   }
   60% {
-    background-position: 0% 50%, 50% 100%, 100% 0%;
+    background-position:
+      0% 50%,
+      50% 100%,
+      100% 0%;
   }
   80% {
-    background-position: 0% 50%, 50% 50%, 100% 100%;
+    background-position:
+      0% 50%,
+      50% 50%,
+      100% 100%;
   }
 }
 
 /* ********** */
 /* First counter example */
 .counter {
-  @apply flex flex-col items-center gap-[1rem] text-[2rem] font-bold m-[6rem];
+  @apply m-[6rem] flex flex-col items-center gap-[1rem] text-[2rem] font-bold;
 }
 
 .counter * {
-  @apply text-inherit p-[0.8rem];
+  @apply p-[0.8rem] text-inherit;
 }
 
 .mtquiz {
