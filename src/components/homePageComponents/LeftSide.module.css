@@ -1,15 +1,15 @@
 .leftContainer {
-  @apply w-full h-full bg-[#0c0a09]  rounded-sm m-auto;
+  @apply m-auto h-full w-full bg-[#0c0a09];
 }
 
 .image {
-  @apply rounded-full w-96 h-96 m-auto;
+  @apply m-auto h-96 w-96 rounded-full;
 }
 
 .icoSettings {
-  @apply flex flex-row gap-5 justify-center mt-10 mb-10 text-2xl text-[#41dcff];
+  @apply mb-10 mt-10 flex flex-row justify-center gap-5 text-2xl text-[#41dcff];
 }
 
 .leftP {
-  @apply text-2xl tracking-wide max-w-[300px] m-auto;
+  @apply m-auto max-w-[300px] text-2xl tracking-wide;
 }

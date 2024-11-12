@@ -3,23 +3,23 @@
 }
 
 .table {
-  @apply h-full w-full border-collapse rounded-b-full border-[1px] border-solid border-stone-50;
+  @apply h-1/2 w-1/2 border-collapse rounded-b-full border-[1px] border-solid border-stone-50;
 }
 
 .th {
-  @apply flex border-collapse items-start gap-2 border-[1px] border-solid border-lime-50;
+  @apply flex border-collapse items-start gap-2 border-[1px] border-solid border-stone-50;
 }
 
 .btn {
-  @apply h-6 w-6 rounded-full bg-red-800;
+  @apply my-2 ml-3 h-3 w-3 rounded-full bg-red-800;
 }
 
 .btn1 {
-  @apply h-6 w-6 rounded-full bg-yellow-400;
+  @apply my-2 h-3 w-3 rounded-full bg-yellow-400;
 }
 
 .btn2 {
-  @apply h-6 w-6 rounded-full bg-green-500;
+  @apply my-2 h-3 w-3 rounded-full bg-green-500;
 }
 
 .text {

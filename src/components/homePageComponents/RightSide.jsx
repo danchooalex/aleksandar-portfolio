@@ -9,9 +9,9 @@ function RightSide() {
         <thead>
           <tr>
             <th className={styles.th}>
-              <div className={styles.btn}>x</div>
-              <div className={styles.btn1}>x</div>
-              <div className={styles.btn2}>x</div>
+              <div className={styles.btn}></div>
+              <div className={styles.btn1}></div>
+              <div className={styles.btn2}></div>
             </th>
           </tr>
         </thead>
