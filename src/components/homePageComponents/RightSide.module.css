@@ -23,7 +23,7 @@
 }
 
 .text {
-  @apply text-yellow-200;
+  @apply text-2xl text-amber-200;
 }
 .image {
   @apply h-full w-full;
