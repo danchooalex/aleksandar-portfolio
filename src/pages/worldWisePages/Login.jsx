@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/FakeAuthContext";
@@ -25,7 +26,7 @@ export default function Login() {
     function () {
       if (isAuthenticated) navigate("/map", { replace: true });
     },
-    [isAuthenticated, navigate]
+    [isAuthenticated, navigate],
   );
 
   return (

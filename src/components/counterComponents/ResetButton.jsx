@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "../counterComponents/DateCounter.module.css";
 
 function ResetButton({ onClick }) {

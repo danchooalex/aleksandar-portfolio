@@ -1,3 +1,4 @@
+import React from "react";
 import { createContext, useContext, useEffect, useReducer } from "react";
 
 import styles from "../components/quizComponents/Quiz.module.css";
@@ -84,7 +85,7 @@ function QuizProvider({ children }) {
   const numQuestions = questions.length;
   const maxPossiblePoints = questions.reduce(
     (prev, cur) => prev + cur.points,
-    0
+    0,
   );
   useEffect(function () {
     fetch("http://localhost:9000/questions")

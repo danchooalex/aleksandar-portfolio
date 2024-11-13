@@ -1,5 +1,6 @@
 import PageNavPortfolio from "../../components/pageNavPortfolio/PageNavPortfolio";
 import styles from "./UnderConstruction.module.css";
+import React from "react";
 
 function UnderConstruction() {
   return (

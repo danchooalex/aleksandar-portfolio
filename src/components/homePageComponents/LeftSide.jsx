@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./LeftSide.module.css";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";

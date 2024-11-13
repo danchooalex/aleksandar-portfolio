@@ -1,4 +1,5 @@
 // Uses the same styles as Product
+import React from "react";
 import PageNavPortfolio from "../../components/pageNavPortfolio/PageNavPortfolio";
 import PageNav from "../../components/worldWiseComponents/PageNav";
 import styles from "../worldWisePages/Product.module.css";

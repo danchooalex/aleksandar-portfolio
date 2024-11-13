@@ -1,3 +1,4 @@
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/FakeAuthContext";
 
@@ -9,7 +10,7 @@ function User() {
 
   function handleClick() {
     logout();
-    navigate("world");
+    navigate("/world");
   }
 
   return (

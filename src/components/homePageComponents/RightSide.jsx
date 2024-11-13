@@ -1,6 +1,6 @@
+import React from "react";
 import styles from "./RightSide.module.css";
-
-const coder = [{}];
+import CoderComponent from "../homePageComponents/CoderComponent";
 
 function RightSide() {
   return (
@@ -9,19 +9,16 @@ function RightSide() {
         <thead>
           <tr>
             <th className={styles.th}>
-              <div className={styles.btn}>x</div>
-              <div className={styles.btn1}>x</div>
-              <div className={styles.btn2}>x</div>
+              <div className={styles.btn}></div>
+              <div className={styles.btn1}></div>
+              <div className={styles.btn2}></div>
             </th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td className={styles.text}>
-              <aside>
-                <p>const</p>
-                <p>asd</p>
-              </aside>
+            <td>
+              <CoderComponent />
             </td>
           </tr>
         </tbody>

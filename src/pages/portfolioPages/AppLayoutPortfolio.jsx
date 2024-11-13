@@ -1,17 +1,18 @@
+import React from "react";
 import LeftSide from "../../components/homePageComponents/LeftSide";
 import RightSide from "../../components/homePageComponents/RightSide";
 import styles from "./AppLayoutPortfolio.module.css";
 
 function AppLayoutPortfolio() {
   return (
-    <div className={styles.container}>
-      <div className={styles.left}>
+    <main className={styles.container}>
+      <aside className={styles.left}>
         <LeftSide />
-      </div>
-      <div className={styles.right}>
+      </aside>
+      <aside className={styles.right}>
         <RightSide />
-      </div>
-    </div>
+      </aside>
+    </main>
   );
 }
 

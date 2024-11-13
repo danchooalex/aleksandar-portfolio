@@ -1,3 +1,4 @@
+import React from "react";
 import { createContext, useContext, useReducer } from "react";
 
 const AuthContext = createContext();
@@ -28,7 +29,7 @@ const FAKE_USER = {
 function AuthProvider({ children }) {
   const [{ user, isAuthenticated }, dispatch] = useReducer(
     reducer,
-    initialState
+    initialState,
   );
 
   function login(email, password) {

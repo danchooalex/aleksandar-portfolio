@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useCities } from "../../contexts/CitiesContext";
@@ -22,7 +23,7 @@ function City() {
     function () {
       getCity(id);
     },
-    [id, getCity]
+    [id, getCity],
   );
 
   const { cityName, emoji, date, notes } = currentCity;

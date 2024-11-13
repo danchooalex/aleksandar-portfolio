@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./Quiz.module.css";
 
 export default function Loader() {

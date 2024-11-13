@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "../worldWiseComponents/Spinner.module.css";
 
 function Spinner() {

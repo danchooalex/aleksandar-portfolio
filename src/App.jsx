@@ -1,5 +1,7 @@
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import React from "react";
+import "leaflet/dist/leaflet.css";
 
 import HomePagePortfolio from "./pages/portfolioPages/HomePagePortfolio";
 import StarRatingPage from "./pages/portfolioPages/StarRatingPage";
@@ -14,8 +16,8 @@ import CityList from "./components/worldWiseComponents/CityList";
 import City from "./components/worldWiseComponents/City";
 import CountryList from "./components/worldWiseComponents/CountryList";
 import Form from "./components/worldWiseComponents/Form";
+import AppLayout from "./pages/worldWisePages/AppLayout";
 import PageNotFound from "./pages/worldWisePages/PageNotFound";
-import Map from "./components/worldWiseComponents/Map";
 
 import { AuthProvider } from "./contexts/FakeAuthContext";
 import { CitiesProvider } from "./contexts/CitiesContext";
@@ -53,21 +55,21 @@ function App() {
             <Route path="react" element={<ReactQuizPage />} />
 
             <Route path="world" element={<WorldWisePagePortfolio />} />
-            <Route path="product" element={<Product />} />
             <Route path="pricing" element={<Pricing />} />
-            <Route path="login" element={<Login />} />
-            <Route path="map" element={<Map />} />
-            <Route index element={<Navigate replace to="cities" />} />
-            <Route
-              path="cities"
-              element={<CityList cities={cities} isLoading={isLoading} />}
-            />
-            <Route path="cities/:id" element={<City />} />
-            <Route
-              path="countries"
-              element={<CountryList cities={cities} isLoading={isLoading} />}
-            />
-            <Route path="form" element={<Form />} />
+            <Route path="product" element={<Product />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="map" element={<AppLayout />}>
+              <Route
+                path="cities"
+                element={<CityList cities={cities} isLoading={isLoading} />}
+              />
+              <Route path="cities/:id" element={<City />} />
+              <Route
+                path="countries"
+                element={<CountryList cities={cities} isLoading={isLoading} />}
+              />
+              <Route path="form" element={<Form />} />
+            </Route>
             <Route />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
