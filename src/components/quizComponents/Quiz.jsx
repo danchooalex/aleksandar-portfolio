@@ -1,3 +1,4 @@
+import React from "react";
 import { useQuiz } from "../../contexts/QuizContext.jsx";
 
 import Header from "../quizComponents/HeaderQuiz.jsx";

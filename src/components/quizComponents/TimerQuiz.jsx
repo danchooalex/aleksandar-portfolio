@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect } from "react";
 import { useQuiz } from "../../contexts/QuizContext";
 
@@ -15,7 +16,7 @@ function Timer() {
       }, 1000);
       return () => clearInterval(id);
     },
-    [dispatch]
+    [dispatch],
   );
 
   return (

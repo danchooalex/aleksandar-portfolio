@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./RightSide.module.css";
 
 const coder = [{}];

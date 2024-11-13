@@ -1,3 +1,4 @@
+import React from "react";
 import { useQuiz } from "../../contexts/QuizContext";
 
 import styles from "../quizComponents/Quiz.module.css";

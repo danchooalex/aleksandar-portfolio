@@ -1,3 +1,4 @@
+import React from "react";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import styles from "./SocialMedia.module.css";
 
