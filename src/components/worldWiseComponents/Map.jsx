@@ -11,11 +11,11 @@ import {
   useMapEvents,
 } from "react-leaflet";
 
-import styles from "../worldWiseComponents/Map.module.css";
+import styles from "../../components/worldWiseComponents/Map.module.css";
 import { useCities } from "../../contexts/CitiesContext";
 import { useGeolocation } from "../../hooks/useGeolocation";
 import { useUrlPosition } from "../../hooks/useUrlPosition";
-import Button from "./Button";
+import Button from "../worldWiseComponents/Button";
 
 function Map() {
   const { cities } = useCities();

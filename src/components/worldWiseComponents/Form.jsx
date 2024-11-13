@@ -87,7 +87,7 @@ function Form() {
     };
 
     await createCity(newCity);
-    navigate("/app/cities");
+    navigate("/map/cities");
   }
 
   if (isLoadingGeocoding) return <Spinner />;

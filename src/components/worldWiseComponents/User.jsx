@@ -10,7 +10,7 @@ function User() {
 
   function handleClick() {
     logout();
-    navigate("world");
+    navigate("/world");
   }
 
   return (

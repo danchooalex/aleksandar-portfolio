@@ -1,5 +1,5 @@
 .nav {
-  @apply m-5 flex flex-row justify-between border-b-[1px] border-[#41dcff] bg-[#0c0a09] text-4xl font-bold tracking-normal;
+  @apply m-5 flex flex-row justify-between border-b border-[#41dcff] bg-[#0c0a09] text-3xl font-bold font-extralight uppercase tracking-wide transition-all delay-300;
 }
 
 .nav ul {
