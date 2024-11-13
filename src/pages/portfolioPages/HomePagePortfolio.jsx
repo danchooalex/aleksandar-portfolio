@@ -1,3 +1,4 @@
+import React from "react";
 import PageNavPortfolio from "../../components/pageNavPortfolio/PageNavPortfolio";
 import SocialMedia from "../../components/socialMediaComponent/SocialMedia";
 

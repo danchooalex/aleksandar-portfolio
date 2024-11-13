@@ -1,3 +1,4 @@
+import React from "react";
 import SocialMedia from "../../components/socialMediaComponent/SocialMedia";
 import { CitiesProvider } from "../../contexts/CitiesContext";
 import Homepage from "../worldWisePages/Homepage";

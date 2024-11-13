@@ -1,3 +1,4 @@
+import React from "react";
 import Sidebar from "../../components/worldWiseComponents/Sidebar";
 import Map from "../../components/worldWiseComponents/Map";
 import User from "../../components/worldWiseComponents/User";

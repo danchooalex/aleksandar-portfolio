@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import React from "react";
 
 import HomePagePortfolio from "./pages/portfolioPages/HomePagePortfolio";
 import StarRatingPage from "./pages/portfolioPages/StarRatingPage";
