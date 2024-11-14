@@ -11,5 +11,5 @@
 }
 
 .icoAnimation {
-  @apply transition-all duration-150 ease-in-out hover:text-6xl;
+  @apply sm:transition-all sm:duration-150 sm:ease-in-out sm:hover:text-6xl;
 }
