@@ -1,3 +1,3 @@
 .rate {
-  @apply bg-[#0c0a09] min-h-screen flex items-center justify-center;
+  @apply flex min-h-screen items-center justify-center bg-[#0c0a09];
 }
