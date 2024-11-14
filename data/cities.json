@@ -1,3 +1,16 @@
 {
-  "cities": []
+  "cities": [
+    {
+      "id": "2c95",
+      "cityName": "Palilula",
+      "country": "Serbia",
+      "emoji": "🇷🇸",
+      "date": "2024-11-14T21:40:55.025Z",
+      "notes": "",
+      "position": {
+        "lat": "44.809121700077355",
+        "lng": "20.478515625000004"
+      }
+    }
+  ]
 }
