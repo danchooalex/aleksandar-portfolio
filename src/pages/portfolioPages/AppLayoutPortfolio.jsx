@@ -7,12 +7,9 @@ function AppLayoutPortfolio() {
   return (
     <main className={styles.container}>
       <aside className={styles.left}>
-        <h1 className={styles.h1Left}>
-          Hello! my name is Alex Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Ea reiciendis vitae commodi earum veritatis hic
-          beatae minus, iusto praesentium ipsam perspiciatis vel, aspernatur ut?
-          Ea atque quae nesciunt dolore eum?
-        </h1>
+        <h3 className={styles.h3L}>{`<React developer/>`}</h3>
+        <h1 className={styles.h1L}>Hello, I'm</h1>
+        <h2 className={styles.h2L}>Aleksandar Dancu</h2>
       </aside>
       <aside className={styles.right}>
         <LeftSide />
