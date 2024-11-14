@@ -7,9 +7,15 @@ function AppLayoutPortfolio() {
   return (
     <main className={styles.container}>
       <aside className={styles.left}>
-        <LeftSide />
+        <h1 className={styles.h1Left}>
+          Hello! my name is Alex Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ea reiciendis vitae commodi earum veritatis hic
+          beatae minus, iusto praesentium ipsam perspiciatis vel, aspernatur ut?
+          Ea atque quae nesciunt dolore eum?
+        </h1>
       </aside>
       <aside className={styles.right}>
+        <LeftSide />
         <RightSide />
       </aside>
     </main>
