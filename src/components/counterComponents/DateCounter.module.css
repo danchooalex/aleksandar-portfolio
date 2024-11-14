@@ -1,11 +1,9 @@
 .counter {
-  @apply flex flex-col items-center justify-center text-center gap-4 text-3xl font-bold m-20;
+  @apply m-20 flex flex-col items-center justify-center gap-4 text-center text-3xl font-bold;
 }
 
 .counter * {
-  @apply text-stone-400 p-4 rounded-sm  text-2xl
-  /* font-size: inherit;
-    padding: 0.8rem; */;
+  @apply /* font-size: inherit; padding: 0.8rem; */ rounded-sm p-4 text-2xl text-stone-400;
 }
 
 .center {
@@ -13,5 +11,5 @@
 }
 
 .btn {
-  @apply bg-stone-800 rounded-sm w-auto h-auto;
+  @apply h-auto w-auto rounded-md bg-stone-700 px-6 py-4;
 }

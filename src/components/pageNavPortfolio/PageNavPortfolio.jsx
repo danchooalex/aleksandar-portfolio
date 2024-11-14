@@ -5,7 +5,7 @@ import styles from "./PageNavPortfolio.module.css";
 const styleNav = {
   textDecoration: "none",
   color: "#a8a29e",
-  fontWeight: "normal",
+  fontWeight: "400",
 };
 
 function PageNavPortfolio() {
@@ -18,7 +18,7 @@ function PageNavPortfolio() {
               return isActive
                 ? {
                     color: "#41dcff",
-                    fontWeight: "bold",
+                    fontWeight: "800",
                     textDecoration: "none",
                   }
                 : styleNav;
@@ -36,7 +36,7 @@ function PageNavPortfolio() {
               return isActive
                 ? {
                     color: "#41dcff",
-                    fontWeight: "bold",
+                    fontWeight: "800",
                     textDecoration: "none",
                   }
                 : styleNav;
@@ -52,7 +52,7 @@ function PageNavPortfolio() {
               return isActive
                 ? {
                     color: "#41dcff",
-                    fontWeight: "bold",
+                    fontWeight: "800",
                     textDecoration: "none",
                   }
                 : styleNav;
@@ -68,7 +68,7 @@ function PageNavPortfolio() {
               return isActive
                 ? {
                     color: "#41dcff",
-                    fontWeight: "bold",
+                    fontWeight: "800",
                     textDecoration: "none",
                   }
                 : styleNav;
@@ -84,7 +84,7 @@ function PageNavPortfolio() {
               return isActive
                 ? {
                     color: "#41dcff",
-                    fontWeight: "bold",
+                    fontWeight: "800",
                     textDecoration: "none",
                   }
                 : styleNav;

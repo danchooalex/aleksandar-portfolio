@@ -1,7 +1,7 @@
 .nav {
-  @apply m-5 flex flex-row justify-between border-b border-[#41dcff] bg-[#0c0a09] text-3xl font-bold font-extralight uppercase tracking-wide transition-all delay-300;
+  @apply m-5 flex flex-row justify-between border-b border-[#41dcff] bg-[#0c0a09] text-3xl font-extrabold uppercase tracking-wide transition-all delay-500;
 }
 
 .nav ul {
-  @apply mb-3 flex list-none flex-row gap-8;
+  @apply mb-3 flex list-none flex-row gap-6;
 }

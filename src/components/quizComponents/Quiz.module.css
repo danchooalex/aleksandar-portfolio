@@ -23,7 +23,7 @@
 }
 
 .quiz h1 {
-  @apply font-["Codystar"] text-[5.6rem] font-semibold text-stone-300;
+  @apply font-["Codystar"] text-[5.6rem] font-semibold tracking-wide text-stone-200;
 }
 
 .quiz h2 {
@@ -69,11 +69,11 @@ progress {
 }
 
 .btn {
-  @apply block cursor-pointer rounded-full border-2 border-stone-900 bg-stone-800 px-5 py-1 text-[2rem] text-inherit duration-300;
+  @apply block cursor-pointer rounded-full border-2 border-stone-900 bg-stone-700 px-5 py-1 text-[2rem] text-stone-300 duration-300;
 }
 
 .btn:not([disabled]):hover {
-  background-color: var(--color-darkest);
+  background-color: #57534e;
 }
 
 .btnoption:not([disabled]):hover {
@@ -132,11 +132,11 @@ progress {
 }
 
 .loaderc {
-  @apply mt-[4rem] flex flex-col items-center gap-[1.6rem] text-[1.4rem] text-stone-400;
+  @apply mt-[4rem] flex flex-col items-center gap-[1.6rem] text-[1.4rem] text-stone-300;
 }
 
 .timer {
-  @apply float-left rounded-full border-2 border-[#292524] px-5 py-1 text-[1.8rem] text-stone-400;
+  @apply float-left rounded-full border-2 border-[#292524] px-5 py-1 text-[1.8rem] text-stone-300;
 }
 
 /* CREDIT: https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
