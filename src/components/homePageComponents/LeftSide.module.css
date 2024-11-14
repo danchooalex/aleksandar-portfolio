@@ -7,7 +7,11 @@
 }
 
 .icoSettings {
-  @apply mb-10 mt-10 flex flex-row justify-center gap-5 text-2xl text-[#41dcff];
+  @apply mb-10 mt-10 flex flex-row justify-center gap-5 text-4xl text-[#41dcff];
+}
+
+.icoAnimation {
+  @apply transition-all duration-150 ease-in-out hover:text-6xl;
 }
 
 .leftP {

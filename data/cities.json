@@ -1,27 +1,63 @@
 {
   "cities": [
     {
-      "id": "1acf",
-      "cityName": "Belgrade",
+      "id": "4451",
+      "cityName": "Pozarevac",
       "country": "Serbia",
       "emoji": "🇷🇸",
-      "date": "2024-11-15T12:55:40.000Z",
-      "notes": "Notes askdjalkvnsd\ndskvjsdf;lvk\n",
+      "date": "2024-11-13T13:03:27.388Z",
+      "notes": "",
       "position": {
-        "lat": "44.8188638076915",
-        "lng": "20.462036132812504"
+        "lat": "44.616866626576595",
+        "lng": "21.185760498046875"
       }
     },
     {
-      "id": "8c88",
-      "cityName": "Gradacac",
-      "country": "Bosnia and Herzegovina",
-      "emoji": "🇧🇦",
-      "date": "2024-11-13T12:56:01.279Z",
+      "id": "dec4",
+      "cityName": "Vrsac",
+      "country": "Serbia",
+      "emoji": "🇷🇸",
+      "date": "2024-11-13T13:03:37.795Z",
       "notes": "",
       "position": {
-        "lat": "44.881174324925844",
-        "lng": "18.506469726562504"
+        "lat": "45.119083806728156",
+        "lng": "21.2969970703125"
+      }
+    },
+    {
+      "id": "e13f",
+      "cityName": "Resiţa",
+      "country": "Romania",
+      "emoji": "🇷🇴",
+      "date": "2024-11-03T13:03:45.000Z",
+      "notes": "",
+      "position": {
+        "lat": "45.28841433167348",
+        "lng": "21.8902587890625"
+      }
+    },
+    {
+      "id": "8996",
+      "cityName": "Budapest",
+      "country": "Hungary",
+      "emoji": "🇭🇺",
+      "date": "2024-11-13T13:10:14.512Z",
+      "notes": "",
+      "position": {
+        "lat": "47.47266286861342",
+        "lng": "19.072265625000004"
+      }
+    },
+    {
+      "id": "a635",
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-11-13T13:10:18.659Z",
+      "notes": "",
+      "position": {
+        "lat": "48.83579746243093",
+        "lng": "2.3510742187500004"
       }
     }
   ]
