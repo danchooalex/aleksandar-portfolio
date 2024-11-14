@@ -1,5 +1,5 @@
 .leftContainer {
-  @apply m-auto h-full w-full bg-[#0c0a09];
+  @apply m-auto flex h-1/2 w-1/3 flex-col items-center justify-center bg-[#0c0a09];
 }
 
 .image {

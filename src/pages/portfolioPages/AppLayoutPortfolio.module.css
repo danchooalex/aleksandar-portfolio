@@ -1,11 +1,11 @@
 .container {
-  @apply mt-20 flex flex-row items-center justify-between bg-[#0c0a09];
+  @apply flex flex-row items-center bg-[#0c0a09];
 }
 
 .left {
-  @apply m-3 flex h-screen w-screen items-center bg-[#0c0a09] text-center;
+  @apply flex h-screen w-screen items-end bg-[#0c0a09] text-center;
 }
 
 .right {
-  @apply m-3 flex h-screen w-screen items-center bg-[#0c0a09];
+  @apply flex h-screen w-screen items-center bg-[#0c0a09];
 }

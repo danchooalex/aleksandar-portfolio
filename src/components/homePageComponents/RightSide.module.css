@@ -1,5 +1,5 @@
 .rightContainer {
-  @apply flex h-full w-full items-center justify-center bg-[#0c0a09];
+  @apply flex h-full w-full items-center bg-[#0c0a09];
 }
 
 .table {
@@ -25,3 +25,5 @@
 .text {
   @apply text-xl text-amber-200;
 }
+
+/* bg-[#0c0a09] */
