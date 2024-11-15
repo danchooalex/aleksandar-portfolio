@@ -1,5 +1,5 @@
 .rightContainer {
-  @apply flex h-full w-full flex-col items-center justify-center bg-[#0c0a09] md:sm:basis-2/4 md:sm:flex md:sm:h-1/2 md:sm:items-center md:sm:justify-center md:sm:w-1/2;
+  @apply flex h-full w-full flex-col items-center justify-center bg-[#0c0a09] sm:flex sm:h-screen sm:w-screen sm:basis-2/4 sm:items-center sm:justify-center;
 }
 
 .table {
@@ -23,7 +23,7 @@
 }
 
 .text {
-  @apply text-xl text-amber-200;
+  @apply text-2xl text-amber-200;
 }
 
 /* bg-[#0c0a09] */

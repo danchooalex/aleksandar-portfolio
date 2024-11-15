@@ -16,7 +16,7 @@ function LeftSide() {
     <main className={styles.leftContainer}>
       <img className={styles.image} src="./mug.jpg" />
       <p className={styles.info}>
-        I can craft elegant digital stuff and i am proficient with programing
+        I can craft elegant digital stuff and i'm proficient with programing
         languages and technologies bellow . . .
       </p>
 
