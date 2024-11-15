@@ -1,23 +1,23 @@
 .container {
-  @apply mt-20 flex flex-col bg-[#0c0a09] text-left md:sm:basis-1/2 md:sm:flex md:sm:flex-row md:sm:h-2/3 md:sm:items-center md:sm:justify-between;
+  @apply mt-20 flex flex-col bg-[#0c0a09] text-left sm:flex sm:h-2/3 sm:basis-1/2 sm:flex-row sm:items-center sm:justify-between;
 }
 
 .left {
-  @apply mb-40 mt-20 flex flex-col items-center justify-center bg-[#0c0a09] text-[#41dcff] md:sm:basis-2/5 md:sm:flex md:sm:h-1/2 md:sm:items-center md:sm:ml-40 md:sm:text-start md:sm:w-screen;
+  @apply mb-40 mt-20 flex flex-col items-center justify-center bg-[#0c0a09] text-[#41dcff] sm:ml-40 sm:flex sm:h-1/2 sm:w-screen sm:basis-2/5 sm:items-center sm:text-start;
 }
 
 .right {
-  @apply flex flex-col gap-80 bg-[#0c0a09] md:sm:basis-2/3 md:sm:flex md:sm:flex-row md:sm:h-1/2 md:sm:items-center;
+  @apply flex flex-col gap-80 bg-[#0c0a09] sm:flex sm:h-1/2 sm:basis-2/3 sm:flex-row sm:items-center;
 }
 
 .h1L {
-  @apply mb-1 ml-2 text-6xl tracking-widest;
+  @apply mb-3 text-6xl tracking-widest;
 }
 
 .h2L {
-  @apply ml-48 text-6xl;
+  @apply text-5xl;
 }
 
 .h3L {
-  @apply mb-3 text-3xl tracking-widest;
+  @apply mb-3 text-4xl tracking-widest;
 }

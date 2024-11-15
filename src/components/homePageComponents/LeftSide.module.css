@@ -7,9 +7,13 @@
 }
 
 .icoSettings {
-  @apply mb-2 mt-10 flex flex-row justify-center gap-4 text-3xl text-[#41dcff] md:sm:gap-5 md:sm:text-6xl;
+  @apply mb-2 mt-8 flex flex-row justify-center gap-4 text-3xl text-[#41dcff] md:sm:gap-5 md:sm:text-6xl;
 }
 
 .icoAnimation {
-  @apply sm:transition-all sm:duration-150 sm:ease-in-out sm:hover:text-6xl;
+  @apply transition-all duration-150 ease-in-out hover:text-6xl;
+}
+
+.info {
+  @apply mx-20 max-w-96 text-xl tracking-normal text-[#41dcff];
 }

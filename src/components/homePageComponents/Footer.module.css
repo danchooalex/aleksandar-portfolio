@@ -1,0 +1,3 @@
+.footerText {
+  @apply py-10 text-center text-xl text-[#41dcff];
+}

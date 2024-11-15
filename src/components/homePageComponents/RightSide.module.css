@@ -1,9 +1,9 @@
 .rightContainer {
-  @apply flex h-full w-full flex-col items-center justify-center gap-40 bg-[#0c0a09] md:sm:basis-2/4 md:sm:flex md:sm:h-1/2 md:sm:items-center md:sm:justify-center md:sm:w-1/2;
+  @apply flex h-full w-full flex-col items-center justify-center bg-[#0c0a09] md:sm:basis-2/4 md:sm:flex md:sm:h-1/2 md:sm:items-center md:sm:justify-center md:sm:w-1/2;
 }
 
 .table {
-  @apply mb-20 h-1/3 w-1/2 border-collapse rounded-md border border-solid border-[#41dcff];
+  @apply mb-20 h-2/3 w-2/3 border-collapse rounded-md border border-solid border-[#41dcff];
 }
 
 .th {
