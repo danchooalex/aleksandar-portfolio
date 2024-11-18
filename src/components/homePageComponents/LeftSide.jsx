@@ -15,6 +15,10 @@ function LeftSide() {
   return (
     <main className={styles.leftContainer}>
       <img className={styles.image} src="./mug.jpg" />
+      <p className={styles.info}>
+        I can craft elegant digital experiences and i'm proficient with
+        programing languages and technologies bellow . . .
+      </p>
 
       <div className={styles.icoSettings}>
         <TiHtml5 className={styles.icoAnimation} />
@@ -26,6 +30,7 @@ function LeftSide() {
         <SiReactrouter className={styles.icoAnimation} />
         <SiAdobephotoshop className={styles.icoAnimation} />
       </div>
+
       <Button />
     </main>
   );
