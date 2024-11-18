@@ -1,13 +1,13 @@
 .leftContainer {
-  @apply m-auto flex flex-col items-center justify-center bg-[#0c0a09] sm:m-auto sm:flex sm:h-full sm:w-full sm:basis-1/2 sm:flex-col sm:items-center sm:justify-center;
+  @apply m-auto flex flex-col items-center justify-center bg-[#0c0a09] sm:m-auto sm:flex sm:h-full sm:w-full sm:basis-1/2 sm:flex-col sm:items-center sm:justify-center md:mt-10 md:w-1/2 lg:max-h-screen lg:max-w-fit;
 }
 
 .image {
-  @apply mb-8 mt-14 h-52 w-52 rounded-full sm:mb-10 sm:h-80 sm:w-80 sm:rounded-full;
+  @apply mb-8 mt-14 h-52 w-52 rounded-full sm:mb-10 sm:h-80 sm:w-80 sm:rounded-full lg:mt-5 lg:h-96 lg:w-96;
 }
 
 .icoSettings {
-  @apply mb-2 mt-8 flex flex-row justify-center gap-4 text-3xl text-[#41dcff] sm:gap-5 sm:text-4xl;
+  @apply mb-2 mt-8 flex flex-row justify-center gap-4 text-3xl text-[#41dcff] sm:gap-5 sm:text-4xl lg:mb-2 lg:mt-4 lg:gap-5;
 }
 
 .icoAnimation {
@@ -15,5 +15,5 @@
 }
 
 .info {
-  @apply mx-20 max-w-md text-2xl tracking-normal text-[#41dcff];
+  @apply mx-20 max-w-md text-2xl tracking-normal text-[#41dcff] md:text-3xl lg:mb-12 lg:text-3xl;
 }

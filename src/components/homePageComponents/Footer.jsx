@@ -4,7 +4,7 @@ import styles from "../homePageComponents/Footer.module.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="mt-auto">
       <p className={styles.footerText}>
         &copy; Copyright {new Date().getFullYear()} by Alex Inc.
       </p>

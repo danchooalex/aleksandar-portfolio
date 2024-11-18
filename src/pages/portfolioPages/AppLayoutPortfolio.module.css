@@ -1,23 +1,23 @@
 .container {
-  @apply mt-5 flex flex-col bg-[#0c0a09] text-left sm:flex sm:h-2/3 sm:basis-1/2 sm:flex-col sm:items-center sm:justify-between;
+  @apply mt-5 flex min-h-screen flex-col bg-[#0c0a09] text-left sm:flex sm:h-2/3 sm:basis-1/2 sm:flex-col sm:items-center sm:justify-between md:flex md:flex-col;
 }
 
 .left {
-  @apply mb-40 mt-20 flex flex-col items-center justify-center bg-[#0c0a09] text-[#41dcff] sm:mb-40 sm:ml-40 sm:mt-20 sm:flex sm:h-1/2 sm:w-screen sm:basis-2/5 sm:flex-col sm:items-center sm:justify-center sm:text-start;
+  @apply mb-40 mt-20 flex w-full flex-col items-start justify-start bg-[#0c0a09] text-[#41dcff] sm:mb-40 sm:ml-40 sm:mt-20 sm:flex sm:h-1/2 sm:w-full sm:basis-2/5 sm:flex-col sm:text-start md:mb-10 md:mt-20 md:h-1/5 md:w-full md:items-start md:justify-start md:p-5 md:font-medium lg:mb-5 lg:mt-2;
 }
 
 .right {
-  @apply flex flex-col gap-80 bg-[#0c0a09] sm:flex sm:h-1/2 sm:basis-2/3 sm:flex-col sm:items-center sm:gap-80;
+  @apply flex flex-col gap-80 bg-[#0c0a09] sm:flex sm:h-1/2 sm:basis-2/3 sm:flex-col sm:items-center sm:gap-80 md:mt-auto md:flex md:h-auto md:w-3/4 md:basis-1/2 md:flex-row md:gap-40 lg:mb-0 lg:mt-10 lg:max-h-screen lg:gap-10;
 }
 
 .h1L {
-  @apply mb-3 text-6xl tracking-widest;
+  @apply mb-3 ml-2 text-6xl tracking-widest md:mb-2 md:text-7xl md:font-normal lg:text-9xl lg:tracking-wide;
 }
 
 .h2L {
-  @apply text-5xl sm:ml-44 sm:text-6xl;
+  @apply ml-2 text-5xl sm:text-6xl md:ml-1 md:mt-5 md:text-7xl md:font-light lg:text-8xl lg:tracking-widest;
 }
 
 .h3L {
-  @apply mb-3 mt-8 text-4xl tracking-widest sm:mb-5 sm:ml-14 sm:mt-8;
+  @apply mb-3 ml-2 mt-8 text-4xl tracking-wider sm:mb-5 sm:mt-8 md:ml-1 md:text-center md:text-5xl md:font-extralight lg:ml-[-50px] lg:text-7xl lg:tracking-widest;
 }
