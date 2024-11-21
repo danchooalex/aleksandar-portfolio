@@ -10,7 +10,7 @@ export default function SocialMedia() {
           <li className={styles.lies}>
             <a
               className={styles.az}
-              href="https://www.instagram.com/maria_konsonanca?igsh=dXcweTZvMzlvNTVp&utm_source=qr"
+              href="https://github.com/danchooalex"
               target="_blank"
               rel="noreferrer"
             >
@@ -21,7 +21,7 @@ export default function SocialMedia() {
           <li className={styles.lies}>
             <a
               className={styles.az}
-              href="https://t.me/mari_muzi"
+              href="https://github.com/danchooalex"
               target="_blank"
               rel="noreferrer"
             >
