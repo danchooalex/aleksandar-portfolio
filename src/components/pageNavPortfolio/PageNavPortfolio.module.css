@@ -1,5 +1,5 @@
 .nav {
-  @apply justify-between border-b border-[#41dcff] bg-[#0c0a09] font-bold uppercase -tracking-wider transition-all delay-500 sm:ml-3 sm:flex sm:flex-row sm:justify-between sm:text-2xl sm:tracking-wide;
+  @apply ml-3 justify-between border-b border-[#41dcff] bg-[#0c0a09] font-bold uppercase -tracking-wider transition-all delay-500 sm:ml-3 sm:flex sm:flex-row sm:justify-between sm:text-2xl sm:tracking-wide;
 }
 
 .nav ul {
