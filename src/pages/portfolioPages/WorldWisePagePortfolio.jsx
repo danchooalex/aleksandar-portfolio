@@ -1,15 +1,14 @@
 import React from "react";
 import SocialMedia from "../../components/socialMediaComponent/SocialMedia";
-import { CitiesProvider } from "../../contexts/CitiesContext";
 import Homepage from "../worldWisePages/Homepage";
-import Sidebar from "../../components/worldWiseComponents/Sidebar";
-import Map from "../../components/worldWiseComponents/Map";
+import BackToTop from "../../components/homePageComponents/BackToTop";
 
 function WorldWisePagePortfolio() {
   return (
     <div>
       <Homepage />
       <SocialMedia />
+      <BackToTop />
     </div>
   );
 }

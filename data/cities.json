@@ -1,3 +1,16 @@
 {
-  "cities": []
+  "cities": [
+    {
+      "id": "cf6a",
+      "cityName": "Surcin",
+      "country": "Serbia",
+      "emoji": "🇷🇸",
+      "date": "2024-11-21T08:54:43.164Z",
+      "notes": "",
+      "position": {
+        "lat": "44.82707926954963",
+        "lng": "20.213418133860703"
+      }
+    }
+  ]
 }

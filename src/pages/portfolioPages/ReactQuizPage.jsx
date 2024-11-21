@@ -5,6 +5,7 @@ import Quiz from "../../components/quizComponents/Quiz";
 import styles from "../../components/quizComponents/Quiz.module.css";
 import SocialMedia from "../../components/socialMediaComponent/SocialMedia";
 import { QuizProvider } from "../../contexts/QuizContext";
+import BackToTop from "../../components/homePageComponents/BackToTop";
 
 function ReactQuizPage() {
   return (
@@ -15,6 +16,7 @@ function ReactQuizPage() {
           <Quiz />
         </div>
       </QuizProvider>
+      <BackToTop />
       <SocialMedia />
     </div>
   );
