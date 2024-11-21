@@ -3,6 +3,7 @@ import LeftSide from "../../components/homePageComponents/LeftSide";
 import RightSide from "../../components/homePageComponents/RightSide";
 import styles from "./AppLayoutPortfolio.module.css";
 import Footer from "../../components/homePageComponents/Footer";
+import BackToTop from "../../components/homePageComponents/BackToTop";
 
 function AppLayoutPortfolio() {
   return (
@@ -17,6 +18,7 @@ function AppLayoutPortfolio() {
           <LeftSide />
           <RightSide />
         </aside>
+        <BackToTop />
         <Footer />
       </main>
     </>

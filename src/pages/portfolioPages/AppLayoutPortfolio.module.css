@@ -11,13 +11,13 @@
 }
 
 .h1L {
-  @apply mb-3 ml-2 text-6xl tracking-widest md:mb-2 md:text-7xl md:font-normal lg:text-9xl lg:tracking-wide;
+  @apply mb-3 ml-3 text-6xl tracking-widest md:mb-2 md:text-7xl md:font-normal lg:ml-20 lg:mt-14 lg:text-9xl lg:tracking-wide;
 }
 
 .h2L {
-  @apply ml-2 text-5xl sm:text-6xl md:ml-1 md:mt-5 md:text-7xl md:font-light lg:text-8xl lg:tracking-widest;
+  @apply ml-3 text-5xl sm:text-6xl md:ml-1 md:mt-5 md:text-7xl md:font-light lg:mb-10 lg:ml-20 lg:text-8xl lg:tracking-widest;
 }
 
 .h3L {
-  @apply mb-3 ml-2 mt-8 text-4xl tracking-wider sm:mb-5 sm:mt-8 md:ml-1 md:text-center md:text-5xl md:font-extralight lg:ml-[-50px] lg:text-7xl lg:tracking-widest;
+  @apply mb-3 ml-3 mt-8 text-4xl tracking-wider sm:mb-5 sm:mt-8 md:ml-1 md:text-center md:text-5xl md:font-extralight lg:mb-20 lg:ml-20 lg:text-7xl lg:tracking-widest;
 }
