@@ -1,8 +1,6 @@
 import React from "react";
 import { createContext, useContext, useEffect, useReducer } from "react";
 
-import styles from "../components/quizComponents/Quiz.module.css";
-
 const QuizContext = createContext();
 
 const initialState = {
