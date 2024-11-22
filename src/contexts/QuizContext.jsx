@@ -88,7 +88,9 @@ function QuizProvider({ children }) {
     0,
   );
   useEffect(function () {
-    fetch("http://localhost:9000/questions")
+    fetch(
+      "https://7feee877-6587-4508-8a98-a97838a17064.mock.pstmn.io/getQuestions",
+    )
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
