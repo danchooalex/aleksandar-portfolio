@@ -1,6 +1,5 @@
 .nav {
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  @apply /* margin-top: 3rem; margin-bottom: 2rem; */mt-12 mb-12 flex flex-row;
 }
 
 .nav ul {
