@@ -1,5 +1,5 @@
 .counter {
-  @apply m-20 flex flex-col items-center justify-center gap-4 text-center text-3xl font-bold;
+  @apply m-20 mt-48 flex flex-col items-center justify-center gap-4 text-center text-2xl font-normal lg:mt-80;
 }
 
 .counter * {
@@ -11,5 +11,5 @@
 }
 
 .btn {
-  @apply h-auto w-auto rounded-md bg-stone-700 px-6 py-4;
+  @apply h-auto w-auto rounded-sm bg-stone-700 px-6 py-4;
 }
