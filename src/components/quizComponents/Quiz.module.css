@@ -23,19 +23,19 @@
 }
 
 .quiz h1 {
-  @apply mb-14 mt-20 text-center font-["Codystar"] text-6xl font-semibold tracking-wide text-stone-200 sm:text-7xl;
+  @apply mb-14 mt-20 text-center font-["Codystar"] text-6xl font-semibold tracking-wide text-stone-200 sm:text-7xl lg:text-9xl;
 }
 
 .quiz h2 {
-  @apply mb-8 mt-10 items-center text-center text-3xl sm:text-4xl;
+  @apply mb-8 mt-10 items-center text-center text-3xl sm:text-4xl lg:text-6xl;
 }
 
 .quiz h3 {
-  @apply mb-16 text-3xl font-semibold;
+  @apply mb-16 text-3xl font-semibold lg:text-5xl;
 }
 
 .quiz h4 {
-  @apply mb-9 text-center text-3xl font-semibold;
+  @apply mb-9 text-center text-3xl font-semibold lg:text-5xl;
 }
 
 .start {
@@ -43,7 +43,7 @@
 }
 
 .progress {
-  @apply mb-10 grid grid-cols-2 content-between gap-4 text-2xl text-[var(--color-medium)] sm:text-4xl;
+  @apply mb-10 grid grid-cols-2 content-between gap-4 text-2xl text-[var(--color-medium)] sm:text-4xl lg:text-5xl;
 }
 
 progress {
@@ -83,7 +83,7 @@ progress {
 }
 
 .options {
-  @apply mb-8 flex flex-col gap-[1.2rem];
+  @apply mb-8 flex flex-col gap-[1.2rem] lg:p-8;
 }
 
 .btnoption {
