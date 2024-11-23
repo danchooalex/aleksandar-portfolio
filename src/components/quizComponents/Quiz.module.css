@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .quiz {
-  @apply flex flex-col items-center justify-center;
+  @apply flex w-auto flex-col items-center justify-center;
 }
 
 .main {
-  @apply mb-[2rem] w-[50rem];
+  @apply mb-[2rem] flex w-3/4 flex-col items-center text-center;
 }
 
 .quizh {
@@ -19,23 +19,23 @@
 }
 
 .quiz img {
-  @apply w-[14rem];
+  @apply w-48;
 }
 
 .quiz h1 {
-  @apply font-["Codystar"] text-[5.6rem] font-semibold tracking-wide text-stone-200;
+  @apply mb-14 mt-20 text-center font-["Codystar"] text-6xl font-semibold tracking-wide text-stone-200 sm:text-7xl;
 }
 
 .quiz h2 {
-  @apply mb-[2rem] text-[3.6rem];
+  @apply mb-8 mt-10 items-center text-center text-3xl sm:text-4xl;
 }
 
 .quiz h3 {
-  @apply mb-[4rem] text-[2.4rem] font-semibold;
+  @apply mb-16 text-3xl font-semibold;
 }
 
 .quiz h4 {
-  @apply mb-[2.4rem] text-center text-[2.2rem] font-semibold;
+  @apply mb-9 text-center text-3xl font-semibold;
 }
 
 .start {
@@ -43,13 +43,7 @@
 }
 
 .progress {
-  margin-bottom: 4rem;
-  display: grid;
-  justify-content: space-between;
-  gap: 1.2rem;
-  grid-template-columns: auto auto;
-  font-size: 1.8rem;
-  color: var(--color-medium);
+  @apply mb-10 grid grid-cols-2 content-between gap-4 text-2xl text-[var(--color-medium)] sm:text-4xl;
 }
 
 progress {
@@ -69,7 +63,7 @@ progress {
 }
 
 .btn {
-  @apply block cursor-pointer rounded-full border-2 border-stone-900 bg-stone-700 px-5 py-1 text-[2rem] text-stone-300 duration-300;
+  @apply block cursor-pointer rounded-full border-2 border-stone-900 bg-stone-700 px-6 py-1 text-3xl text-stone-300 duration-300;
 }
 
 .btn:not([disabled]):hover {
@@ -89,7 +83,7 @@ progress {
 }
 
 .options {
-  @apply mb-[3.2rem] flex flex-col gap-[1.2rem];
+  @apply mb-8 flex flex-col gap-[1.2rem];
 }
 
 .btnoption {
@@ -113,14 +107,7 @@ progress {
 }
 
 .result {
-  background-color: var(--color-theme);
-  color: var(--color-dark);
-  border-radius: 100px;
-  text-align: center;
-  padding: 2rem 0;
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 1.6rem;
+  @apply /* background-color: var(--color-theme); color: var(--color-dark); border-radius: 100px; text-align: center; padding: 2rem 0; font-size: 2rem; font-weight: 500; margin-bottom: 1.6rem; */rounded-full w-full bg-[var(--color-theme)] p-7 text-center text-lg font-normal text-[var(--color-dark)];
 }
 
 .result span {
@@ -128,7 +115,7 @@ progress {
 }
 
 .highscore {
-  @apply mb-[4.8rem] text-center text-[1.8rem];
+  @apply mb-14 mt-10 text-center text-4xl sm:text-5xl;
 }
 
 .loaderc {
@@ -136,7 +123,7 @@ progress {
 }
 
 .timer {
-  @apply float-left rounded-full border-2 border-[#292524] px-5 py-1 text-[1.8rem] text-stone-300;
+  @apply float-left rounded-full border-2 border-[#292524] px-6 py-1 text-[1.8rem] text-stone-300;
 }
 
 /* CREDIT: https://dev.to/afif/i-made-100-css-loaders-for-your-next-project-4eje */
@@ -190,5 +177,5 @@ progress {
 }
 
 .mtquiz {
-  @apply mt-14;
+  @apply mt-20;
 }
