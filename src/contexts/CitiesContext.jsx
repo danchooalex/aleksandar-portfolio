@@ -8,7 +8,7 @@ import {
 } from "react";
 
 const BASE_URL =
-  "https://07edd2c4-b918-4af8-af27-06e480bcf4bf.mock.pstmn.io/getCities";
+  "https://093f5c67-a13a-4a7c-b7c8-ad5153c82ba5.mock.pstmn.io/getCities";
 
 const CitiesContext = createContext();
 
