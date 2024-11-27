@@ -1,4 +1,6 @@
 import React from "react";
+import "leaflet/dist/leaflet.css";
+
 import {
   createContext,
   useEffect,
@@ -7,7 +9,8 @@ import {
   useCallback,
 } from "react";
 
-const BASE_URL = "https://39f4e453-95a9-4392-9408-88ef4be3b5e5.mock.pstmn.io";
+const BASE_URL =
+  "https://39f4e453-95a9-4392-9408-88ef4be3b5e5.mock.pstmn.io/getCities";
 
 const CitiesContext = createContext();
 
