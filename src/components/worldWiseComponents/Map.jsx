@@ -11,6 +11,8 @@ import {
   useMapEvents,
 } from "react-leaflet";
 
+import "leaflet/dist/leaflet.css";
+
 import styles from "../../components/worldWiseComponents/Map.module.css";
 import { useCities } from "../../contexts/CitiesContext";
 import { useGeolocation } from "../../hooks/useGeolocation";
