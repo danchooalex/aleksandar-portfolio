@@ -1,27 +1,17 @@
 .nav {
-  @apply /* margin-top: 3rem; margin-bottom: 2rem; */mt-12 mb-12 flex flex-row;
+  @apply mb-12 mt-12 flex flex-row;
 }
 
 .nav ul {
-  list-style: none;
-  display: flex;
-  background-color: var(--color-dark--2);
-  border-radius: 7px;
+  @apply flex list-none rounded-sm bg-[var(--color-dark)];
 }
 
 .nav a:link,
 .nav a:visited {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  font-weight: 700;
-  padding: 0.5rem 2rem;
-  border-radius: 5px;
+  @apply block rounded-md px-8 py-2 text-base font-bold uppercase text-inherit no-underline;
 }
 
 /* CSS Modules feature */
 .nav a:global(.active) {
-  background-color: var(--color-dark--0);
+  @apply bg-[var(--color-brand--2)] text-[var(--color-dark--1)];
 }

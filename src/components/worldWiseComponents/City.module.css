@@ -1,48 +1,28 @@
 .city {
-  padding: 2rem 3rem;
-  max-height: 70%;
-  background-color: var(--color-dark--2);
-  border-radius: 7px;
-  /* overflow: scroll; */
-
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  list-style: none;
+  @apply flex max-h-svh w-full list-none flex-col gap-8 rounded-md bg-[var(--color-dark)] px-8 py-12;
 }
 
 .row {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  @apply flex flex-col gap-2;
 }
 
 .city h6 {
-  text-transform: uppercase;
-  font-size: 1.1rem;
-  font-weight: 900;
-  color: var(--color-light--1);
+  @apply text-xl font-black uppercase text-[var(--color-light--1)];
 }
 
 .city h3 {
-  font-size: 1.9rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
+  @apply flex items-center gap-4 text-3xl;
 }
 
 .city h3 span {
-  font-size: 3.2rem;
-  line-height: 1;
+  @apply text-5xl leading-4;
 }
 
 .city p {
-  font-size: 1.6rem;
+  @apply text-2xl;
 }
 
 .city a:link,
 .city a:visited {
-  font-size: 1.6rem;
-  color: var(--color-brand--1);
+  @apply text-2xl text-[var(--color-brand--1)];
 }

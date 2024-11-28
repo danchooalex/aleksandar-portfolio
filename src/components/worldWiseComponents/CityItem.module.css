@@ -1,54 +1,29 @@
 .cityItem,
 .cityItem:link,
 .cityItem:visited {
-  display: flex;
-  gap: 1.6rem;
-  align-items: center;
-
-  background-color: var(--color-dark--2);
-  border-radius: 7px;
-  padding: 1rem 2rem;
-  border-left: 5px solid var(--color-brand--2);
-  cursor: pointer;
-
-  color: inherit;
-  text-decoration: none;
+  @apply flex cursor-pointer items-center gap-7 rounded-md rounded-s-md border-[var(--color-brand--2)] bg-[var(--color-dark)] px-8 py-4 decoration-inherit;
 }
 
 .cityItem--active {
-  border: 2px solid var(--color-brand--2);
-  border-left: 5px solid var(--color-brand--2);
+  @apply border-2 border-s-8 border-solid border-[var(--color-brand--2)];
 }
 
 .emoji {
-  font-size: 2.6rem;
-  line-height: 1;
+  @apply text-4xl leading-none;
 }
 
 .name {
-  font-size: 1.7rem;
-  font-weight: 600;
-  margin-right: auto;
+  @apply mr-auto text-3xl font-semibold;
 }
 
 .date {
-  font-size: 1.5rem;
+  @apply text-2xl;
 }
 
 .deleteBtn {
-  height: 2rem;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  border: none;
-  background-color: var(--color-dark--1);
-  color: var(--color-light--2);
-  font-size: 1.6rem;
-  font-weight: 400;
-  cursor: pointer;
-  transition: all 0.2s;
+  @apply aspect-square h-8 cursor-pointer rounded-[50%] border-none bg-[var(--color-dark--1)] text-2xl font-normal text-[var(--color-light--2)] transition-all delay-200;
 }
 
 .deleteBtn:hover {
-  background-color: var(--color-brand--1);
-  color: var(--color-dark--1);
+  @apply bg-[var(--color-brand--1)] text-[var(--color-dark--1)];
 }
