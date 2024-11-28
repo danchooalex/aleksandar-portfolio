@@ -23,7 +23,7 @@ import { AuthProvider } from "./contexts/FakeAuthContext";
 import { CitiesProvider } from "./contexts/CitiesContext";
 
 const BASE_URL =
-  "https://39f4e453-95a9-4392-9408-88ef4be3b5e5.mock.pstmn.io/getCities";
+  "https://11d6574d-9d98-40c8-8fe6-deec3c8342c7.mock.pstmn.io/getCities";
 
 function App() {
   const [cities, setCities] = useState([]);
