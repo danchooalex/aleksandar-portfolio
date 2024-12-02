@@ -1,34 +1,22 @@
 .nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @apply flex flex-col items-end justify-between gap-16 sm:flex-row sm:gap-8;
 }
 
 .nav ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 4rem;
+  @apply flex list-none items-center gap-6;
 }
 
 .nav a:link,
 .nav a:visited {
-  text-decoration: none;
-  color: var(--color-light--2);
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  font-weight: 600;
+  @apply text-xl font-semibold uppercase text-[var(--color-light--2)] no-underline sm:text-2xl;
 }
 
 /* CSS Modules feature */
 .nav a:global(.active) {
-  color: var(--color-brand--2);
+  @apply text-[var(--color-brand--2)];
 }
 
 a.ctaLink:link,
 a.ctaLink:visited {
-  background-color: var(--color-brand--2);
-  color: var(--color-dark--0);
-  padding: 0.8rem 2rem;
-  border-radius: 7px;
+  @apply rounded-md bg-[var(--color-brand--2)] px-8 py-3 text-[var(--color-dark--0)];
 }

@@ -1,9 +1,9 @@
 .nav {
-  @apply mb-12 mt-12 flex flex-row;
+  @apply mb-12 mt-12 flex sm:flex-none;
 }
 
 .nav ul {
-  @apply flex list-none rounded-sm bg-[var(--color-dark)];
+  @apply flex list-none rounded-sm bg-[var(--color-dark)] sm:flex-none;
 }
 
 .nav a:link,

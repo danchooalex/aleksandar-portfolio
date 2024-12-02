@@ -17,23 +17,13 @@
 }
 
 .homepage section {
-  display: flex;
-  flex-direction: column;
-  height: 90%;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  text-align: center;
+  @apply flex h-5/6 flex-col items-center justify-center gap-20 text-center;
 }
 
 .homepage h1 {
-  font-size: 4.5rem;
-  line-height: 1.3;
+  @apply text-5xl leading-none sm:text-6xl sm:leading-snug lg:text-7xl;
 }
 
 .homepage h2 {
-  width: 90%;
-  font-size: 1.9rem;
-  color: var(--color-light--1);
-  margin-bottom: 2.5rem;
+  @apply mb-9 w-full text-2xl text-[var(--color-light--1)] sm:w-2/3 sm:text-3xl sm:font-normal lg:text-4xl;
 }
