@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Button.module.css";
-import resume from "../../../public/Resume.pdf";
+import resume from "../../../public/AleksandarDancuCV.pdf";
 
 function Button() {
   return (
