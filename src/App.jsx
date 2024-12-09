@@ -22,7 +22,7 @@ import PageNotFound from "./pages/worldWisePages/PageNotFound";
 import { AuthProvider } from "./contexts/FakeAuthContext";
 import { CitiesProvider } from "./contexts/CitiesContext";
 
-const BASE_URL = "https://60f8aeb2-f60d-4ae2-a5e8-134fa573635e.mock.pstmn.io";
+const BASE_URL = "https://baa1fe3e-91be-4649-bf4c-12886898cfe3.mock.pstmn.io";
 
 function App() {
   const [cities, setCities] = useState([]);
