@@ -9,7 +9,7 @@ import {
   useCallback,
 } from "react";
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = "https://60f8aeb2-f60d-4ae2-a5e8-134fa573635e.mock.pstmn.io";
 
 const CitiesContext = createContext();
 
