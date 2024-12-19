@@ -21,7 +21,7 @@ export default function SocialMedia() {
           <li className={styles.lies}>
             <a
               className={styles.az}
-              href="www.linkedin.com/in/aleksandardancu"
+              href="https://www.linkedin.com/in/aleksandardancu/"
               target="_blank"
               rel="noreferrer"
             >
