@@ -1,9 +1,9 @@
 .login {
-  @apply m-10 min-h-screen rounded-md bg-[var(--color-dark--1)] px-16 py-8;
+  @apply m-10 min-h-screen rounded-md bg-[var(--color-dark--1)] px-16 py-8 lg:justify-center;
 }
 
 .form {
-  @apply mt-20 flex w-full flex-col gap-8 rounded-md bg-[var(--color-dark--2)] px-12 py-8 text-2xl;
+  @apply mt-20 flex w-full flex-col gap-8 rounded-md bg-[var(--color-dark--2)] px-12 py-8 text-2xl lg:m-auto lg:mt-40 lg:w-1/4;
 }
 
 .row {

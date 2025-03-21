@@ -41,6 +41,22 @@ function PageNavPortfolio() {
                   }
                 : styleNav;
             }}
+            to="/react"
+          >
+            React quiz
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            style={({ isActive }) => {
+              return isActive
+                ? {
+                    color: "#41dcff",
+                    fontWeight: "800",
+                    textDecoration: "none",
+                  }
+                : styleNav;
+            }}
             to="/rating"
           >
             Star rating
@@ -62,22 +78,7 @@ function PageNavPortfolio() {
             Date counter
           </NavLink>
         </li>
-        <li>
-          <NavLink
-            style={({ isActive }) => {
-              return isActive
-                ? {
-                    color: "#41dcff",
-                    fontWeight: "800",
-                    textDecoration: "none",
-                  }
-                : styleNav;
-            }}
-            to="/react"
-          >
-            React quiz
-          </NavLink>
-        </li>
+
         <li>
           <NavLink
             style={({ isActive }) => {
