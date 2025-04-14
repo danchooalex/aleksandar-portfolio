@@ -43,7 +43,7 @@
 }
 
 .progress {
-  @apply mb-10 grid grid-cols-2 content-between gap-4 text-2xl text-[var(--color-medium)] sm:text-4xl lg:text-5xl;
+  @apply mb-10 grid grid-cols-2 content-between gap-5 text-2xl text-[var(--color-medium)] sm:text-4xl lg:text-4xl;
 }
 
 progress {
@@ -107,7 +107,7 @@ progress {
 }
 
 .result {
-  @apply /* background-color: var(--color-theme); color: var(--color-dark); border-radius: 100px; text-align: center; padding: 2rem 0; font-size: 2rem; font-weight: 500; margin-bottom: 1.6rem; */rounded-full w-full bg-[var(--color-theme)] p-7 text-center text-lg font-normal text-[var(--color-dark)];
+  @apply /* background-color: var(--color-theme); color: var(--color-dark); border-radius: 100px; text-align: center; padding: 2rem 0; font-size: 2rem; font-weight: 500; margin-bottom: 1.6rem; */rounded-full w-full bg-[var(--color-theme)] p-7 text-center text-2xl font-normal text-[var(--color-dark)];
 }
 
 .result span {
