@@ -7,7 +7,7 @@
 }
 
 .icoSettings {
-  @apply m-8 flex flex-row justify-center gap-10 text-3xl text-[#41dcff] sm:gap-5 sm:text-4xl lg:mb-2 lg:mt-4 lg:gap-5;
+  @apply m-8 mb-8 flex flex-row justify-center gap-10 text-3xl text-[#41dcff] sm:gap-5 sm:text-4xl lg:mb-2 lg:mt-4 lg:gap-5;
 }
 
 .icoAnimation {
