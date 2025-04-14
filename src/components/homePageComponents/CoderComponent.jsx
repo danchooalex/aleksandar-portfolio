@@ -12,11 +12,11 @@ function CoderComponent() {
       </div>
       <div className="ml-8 mt-1 flex flex-row">
         <p className="ml-3 gap-3 text-stone-100">name:</p>
-        <p className="ml-3">"Aleksandar Dancu",</p>
+        <p className="ml-3">{`Aleksandar Dancu`},</p>
       </div>
       <div className="ml-8 mt-1 flex flex-row">
         <p className="ml-3 gap-3 text-stone-100">gender:</p>
-        <p className="ml-3">"Male",</p>
+        <p className="ml-3">{`Male`},</p>
       </div>
       <div className="ml-8 mt-1 flex flex-row">
         <p className="ml-3 gap-3 text-stone-100">age:</p>
@@ -28,7 +28,7 @@ function CoderComponent() {
       </div>
       <div className="ml-8 mt-1 flex flex-row">
         <p className="ml-3 gap-3 text-stone-100">location:</p>
-        <p className="ml-3">"Belgrade, Serbia",</p>
+        <p className="ml-3">{`Belgrade, Serbia`},</p>
       </div>
       <div className="ml-8 mt-1 flex flex-row">
         <p className="ml-3 gap-3 text-stone-100">followers:</p>
@@ -51,15 +51,16 @@ function CoderComponent() {
         <p className="ml-3 text-sky-500">{`[`}</p>
       </div>
       <div className="ml-20 mt-2">
-        <p>"Html",</p>
-        <p>"CSS",</p>
-        <p>"JavaScript",</p>
-        <p>"React JS",</p>
-        <p>"Tailwind CSS",</p>
-        <p>"Redux",</p>
-        <p>"React Router",</p>
-        <p>"context API",</p>
-        <p>"Adobe Photoshop",</p>
+        <p>{`HTML5`},</p>
+        <p>{`CSS3`},</p>
+        <p>{`JavaScript`},</p>
+        <p>{`ReactJS`},</p>
+        <p>{`TailwindCSS`},</p>
+        <p>{`Redux`},</p>
+        <p>{`NextJS`},</p>
+        <p>{`React Router`},</p>
+        <p>{`Context API`},</p>
+        <p>{`Adobe Photoshop`},</p>
       </div>
       <div className="ml-12 mt-3 flex flex-row gap-2">
         <p className="text-sky-500">{`]`}</p>
