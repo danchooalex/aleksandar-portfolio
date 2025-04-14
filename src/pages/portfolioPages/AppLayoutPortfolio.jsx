@@ -4,20 +4,22 @@ import RightSide from "../../components/homePageComponents/RightSide";
 import styles from "./AppLayoutPortfolio.module.css";
 import Footer from "../../components/homePageComponents/Footer";
 import BackToTop from "../../components/homePageComponents/BackToTop";
+import GitCalendar from "../../components/homePageComponents/GitCalendar";
 
 function AppLayoutPortfolio() {
   return (
     <>
       <main className={styles.container}>
         <aside className={styles.left}>
-          <h1 className={styles.h1L}>Hello, I'm</h1>
-          <h2 className={styles.h2L}>Aleksandar Dancu</h2>
+          <h1 className={styles.h1L}>{`Hello, I'm`}</h1>
+          <h2 className={styles.h2L}>{`Aleksandar Dancu`}</h2>
           <h3 className={styles.h3L}>{`<ReactDeveloper/>`}</h3>
         </aside>
         <aside className={styles.right}>
           <LeftSide />
           <RightSide />
         </aside>
+        <GitCalendar />
         <BackToTop />
         <Footer />
       </main>
